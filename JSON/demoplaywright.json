@@ -1,0 +1,354 @@
+{
+  "meta": {
+    "sourceUrl": "https://demo.playwright.dev/todomvc/#/",
+    "generatedAt": "2026-06-10T12:08:23.134Z",
+    "browser": "chromium",
+    "headless": false
+  },
+  "pages": [
+    {
+      "alias": "page",
+      "steps": [
+        {
+          "step": 1,
+          "action": "fill",
+          "locator": {
+            "role": "textbox",
+            "name": "What needs to be done?"
+          },
+          "text": "Hi Resh"
+        },
+        {
+          "step": 2,
+          "action": "press",
+          "locator": {
+            "role": "textbox",
+            "name": "What needs to be done?"
+          },
+          "key": "Enter"
+        },
+        {
+          "step": 3,
+          "action": "fill",
+          "locator": {
+            "role": "textbox",
+            "name": "What needs to be done?"
+          },
+          "text": "Did u wake up early"
+        },
+        {
+          "step": 4,
+          "action": "press",
+          "locator": {
+            "role": "textbox",
+            "name": "What needs to be done?"
+          },
+          "key": "Enter"
+        },
+        {
+          "step": 5,
+          "action": "fill",
+          "locator": {
+            "role": "textbox",
+            "name": "What needs to be done?"
+          },
+          "text": "Eat well?"
+        },
+        {
+          "step": 6,
+          "action": "press",
+          "locator": {
+            "role": "textbox",
+            "name": "What needs to be done?"
+          },
+          "key": "Enter"
+        },
+        {
+          "step": 7,
+          "action": "fill",
+          "locator": {
+            "role": "textbox",
+            "name": "What needs to be done?"
+          },
+          "text": "Drank enough water?"
+        },
+        {
+          "step": 8,
+          "action": "press",
+          "locator": {
+            "role": "textbox",
+            "name": "What needs to be done?"
+          },
+          "key": "Enter"
+        },
+        {
+          "step": 9,
+          "action": "fill",
+          "locator": {
+            "role": "textbox",
+            "name": "What needs to be done?"
+          },
+          "text": "Went to office early?"
+        },
+        {
+          "step": 10,
+          "action": "press",
+          "locator": {
+            "role": "textbox",
+            "name": "What needs to be done?"
+          },
+          "key": "Enter"
+        },
+        {
+          "step": 11,
+          "action": "fill",
+          "locator": {
+            "role": "textbox",
+            "name": "What needs to be done?"
+          },
+          "text": "How was the day?"
+        },
+        {
+          "step": 12,
+          "action": "press",
+          "locator": {
+            "role": "textbox",
+            "name": "What needs to be done?"
+          },
+          "key": "Enter"
+        },
+        {
+          "step": 13,
+          "action": "check",
+          "locator": {
+            "role": "listitem",
+            "hasText": "Did u wake up early",
+            "label": "Toggle Todo"
+          }
+        },
+        {
+          "step": 14,
+          "action": "check",
+          "locator": {
+            "role": "listitem",
+            "hasText": "Hi Resh",
+            "label": "Toggle Todo"
+          }
+        },
+        {
+          "step": 15,
+          "action": "check",
+          "locator": {
+            "role": "listitem",
+            "hasText": "Went to office early?",
+            "label": "Toggle Todo"
+          }
+        },
+        {
+          "step": 16,
+          "action": "click",
+          "locator": {
+            "role": "link",
+            "name": "Active"
+          }
+        },
+        {
+          "step": 17,
+          "action": "click",
+          "locator": {
+            "role": "link",
+            "name": "Completed"
+          }
+        },
+        {
+          "step": 18,
+          "action": "click",
+          "locator": {
+            "role": "button",
+            "name": "Clear completed"
+          }
+        },
+        {
+          "step": 19,
+          "action": "click",
+          "locator": {
+            "role": "link",
+            "name": "All"
+          }
+        },
+        {
+          "step": 20,
+          "action": "click",
+          "locator": {
+            "role": "textbox",
+            "name": "What needs to be done?"
+          }
+        },
+        {
+          "step": 21,
+          "action": "click",
+          "locator": {
+            "role": "button",
+            "name": "Delete",
+            "nearText": "Eat well?"
+          }
+        },
+        {
+          "step": 22,
+          "action": "assertVisible",
+          "locator": {
+            "getByText": "Drank enough water?"
+          }
+        },
+        {
+          "step": 23,
+          "action": "assertSnapshot",
+          "locator": {
+            "css": "body"
+          },
+          "snapshotName": "todo-list-state"
+        },
+        {
+          "step": 24,
+          "action": "click",
+          "locator": {
+            "role": "button",
+            "name": "Delete",
+            "nearText": "How was the day?"
+          }
+        }
+      ],
+      "url": "https://demo.playwright.dev/todomvc/#/"
+    },
+    {
+      "alias": "page1",
+      "steps": [
+        {
+          "step": 25,
+          "action": "click",
+          "locator": {
+            "role": "link",
+            "name": "Get started"
+          }
+        },
+        {
+          "step": 26,
+          "action": "click",
+          "locator": {
+            "role": "link",
+            "name": "Trace viewer",
+            "nth": 0
+          }
+        },
+        {
+          "step": 27,
+          "action": "click",
+          "locator": {
+            "role": "button",
+            "name": "Watch Viewing Playwright"
+          }
+        },
+        {
+          "step": 28,
+          "action": "click",
+          "locator": {
+            "css": "yt-chaptered-progress-bar-line"
+          },
+          "frame": "iframe[title=\"Viewing Playwright Traces\"]"
+        },
+        {
+          "step": 29,
+          "action": "click",
+          "locator": {
+            "role": "button",
+            "name": "Pause video"
+          },
+          "frame": "iframe[title=\"Viewing Playwright Traces\"]"
+        },
+        {
+          "step": 30,
+          "action": "click",
+          "locator": {
+            "role": "button",
+            "name": "Subtitles/CC turned off"
+          },
+          "frame": "iframe[title=\"Viewing Playwright Traces\"]"
+        },
+        {
+          "step": 31,
+          "action": "click",
+          "locator": {
+            "role": "button",
+            "name": "Play video"
+          },
+          "frame": "iframe[title=\"Viewing Playwright Traces\"]"
+        },
+        {
+          "step": 32,
+          "action": "click",
+          "locator": {
+            "role": "button",
+            "name": "Pause video"
+          },
+          "frame": "iframe[title=\"Viewing Playwright Traces\"]"
+        },
+        {
+          "step": 33,
+          "action": "click",
+          "locator": {
+            "role": "button",
+            "name": "Copy code to clipboard",
+            "nth": 0
+          }
+        },
+        {
+          "step": 34,
+          "action": "click",
+          "locator": {
+            "role": "button",
+            "name": "Play video"
+          },
+          "frame": "iframe[title=\"Viewing Playwright Traces\"]"
+        },
+        {
+          "step": 35,
+          "action": "click",
+          "locator": {
+            "role": "button",
+            "name": "Play video"
+          },
+          "frame": "iframe[title=\"Viewing Playwright Traces\"]"
+        },
+        {
+          "step": 36,
+          "action": "click",
+          "locator": {
+            "role": "button",
+            "name": "Pause video"
+          },
+          "frame": "iframe[title=\"Viewing Playwright Traces\"]"
+        },
+        {
+          "step": 37,
+          "action": "click",
+          "locator": {
+            "role": "link",
+            "name": "Agents"
+          }
+        },
+        {
+          "step": 38,
+          "action": "click",
+          "locator": {
+            "role": "button",
+            "name": "Copy code to clipboard",
+            "within": {
+              "role": "tabpanel"
+            }
+          }
+        }
+      ],
+      "url": "https://playwright.dev/"
+    }
+  ]
+}

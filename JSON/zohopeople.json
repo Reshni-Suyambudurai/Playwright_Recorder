@@ -1,0 +1,360 @@
+{
+  "meta": {
+    "sourceUrl": "https://www.zoho.com/people/login.html",
+    "generatedAt": "2026-06-10T16:09:12.676Z",
+    "browser": "chromium",
+    "headless": false
+  },
+  "pages": [
+    {
+      "alias": "page",
+      "steps": [
+        {
+          "step": 1,
+          "action": "click",
+          "locator": {
+            "getByText": "Sign in to access Zoho PeopleSign In"
+          }
+        },
+        {
+          "step": 2,
+          "action": "click",
+          "locator": {
+            "role": "textbox",
+            "name": "Email address or mobile number"
+          }
+        },
+        {
+          "step": 3,
+          "action": "fill",
+          "locator": {
+            "role": "textbox",
+            "name": "Email address or mobile number"
+          },
+          "text": "[REDACTED]"
+        },
+        {
+          "step": 4,
+          "action": "click",
+          "locator": {
+            "role": "button",
+            "name": "Next"
+          }
+        },
+        {
+          "step": 5,
+          "action": "click",
+          "locator": {
+            "role": "textbox",
+            "name": "Enter your email, phone, or"
+          }
+        },
+        {
+          "step": 6,
+          "action": "fill",
+          "locator": {
+            "role": "textbox",
+            "name": "Enter your email, phone, or"
+          },
+          "text": "[REDACTED]"
+        },
+        {
+          "step": 7,
+          "action": "press",
+          "locator": {
+            "role": "textbox",
+            "name": "Enter your email, phone, or"
+          },
+          "key": "Enter"
+        },
+        {
+          "step": 8,
+          "action": "click",
+          "locator": {
+            "role": "button",
+            "name": "Next"
+          }
+        },
+        {
+          "step": 9,
+          "action": "fill",
+          "locator": {
+            "css": "#i0118"
+          },
+          "text": "Res1233"
+        },
+        {
+          "step": 10,
+          "action": "press",
+          "locator": {
+            "css": "#i0118"
+          },
+          "key": "Enter"
+        },
+        {
+          "step": 11,
+          "action": "click",
+          "locator": {
+            "role": "button",
+            "name": "Sign in"
+          }
+        },
+        {
+          "step": 12,
+          "action": "click",
+          "locator": {
+            "role": "button",
+            "name": "No"
+          }
+        },
+        {
+          "step": 13,
+          "action": "click",
+          "locator": {
+            "role": "listitem",
+            "hasText": "Leave Tracker"
+          }
+        },
+        {
+          "step": 14,
+          "action": "click",
+          "locator": {
+            "role": "listitem",
+            "name": "Time Tracker"
+          }
+        },
+        {
+          "step": 15,
+          "action": "click",
+          "locator": {
+            "label": "Change to next week"
+          }
+        },
+        {
+          "step": 16,
+          "action": "click",
+          "locator": {
+            "label": "Change to previous week"
+          }
+        },
+        {
+          "step": 17,
+          "action": "click",
+          "locator": {
+            "label": "Change to previous week"
+          }
+        },
+        {
+          "step": 18,
+          "action": "click",
+          "locator": {
+            "label": "Change to next week"
+          }
+        },
+        {
+          "step": 19,
+          "action": "click",
+          "locator": {
+            "css": "#my_logselectBtn"
+          }
+        },
+        {
+          "step": 20,
+          "action": "click",
+          "locator": {
+            "getByText": "Weekly Log"
+          }
+        },
+        {
+          "step": 21,
+          "action": "click",
+          "locator": {
+            "getByText": "SaveResetCancelUnpaid"
+          }
+        },
+        {
+          "step": 22,
+          "action": "click",
+          "locator": {
+            "role": "row",
+            "name": "3 Daily Scrum  01:00  01:00"
+          }
+        },
+        {
+          "step": 23,
+          "action": "click",
+          "locator": {
+            "role": "cell",
+            "name": ":00 ",
+            "nth": 4
+          }
+        },
+        {
+          "step": 24,
+          "action": "fill",
+          "locator": {
+            "role": "row",
+            "name": "3 Daily Scrum  01:00  01:00"
+          },
+          "text": "01:5"
+        },
+        {
+          "step": 25,
+          "action": "click",
+          "locator": {
+            "role": "cell",
+            "name": "05:30 "
+          }
+        },
+        {
+          "step": 26,
+          "action": "click",
+          "locator": {
+            "role": "cell",
+            "name": ":5 "
+          }
+        },
+        {
+          "step": 27,
+          "action": "fill",
+          "locator": {
+            "role": "cell",
+            "name": ":5 "
+          },
+          "text": "01:30"
+        },
+        {
+          "step": 28,
+          "action": "click",
+          "locator": {
+            "css": "#weekrow7 > td:nth-child(10) > .zpl_flexaligngap3 > #daytxt4"
+          }
+        },
+        {
+          "step": 29,
+          "action": "click",
+          "locator": {
+            "css": "#weekrow7 > td:nth-child(10) > .zpl_flexaligngap3 > #daytxt4"
+          }
+        },
+        {
+          "step": 30,
+          "action": "press",
+          "locator": {
+            "css": "#weekrow7 > td:nth-child(10) > .zpl_flexaligngap3 > #daytxt4"
+          },
+          "key": "ArrowRight"
+        },
+        {
+          "step": 31,
+          "action": "fill",
+          "locator": {
+            "css": "#weekrow7 > td:nth-child(10) > .zpl_flexaligngap3 > #daytxt4"
+          },
+          "text": "01:30"
+        },
+        {
+          "step": 32,
+          "action": "click",
+          "locator": {
+            "role": "cell",
+            "name": "05:30 "
+          }
+        },
+        {
+          "step": 33,
+          "action": "press",
+          "locator": {
+            "role": "cell",
+            "name": "05:30 "
+          },
+          "key": "ArrowRight"
+        },
+        {
+          "step": 34,
+          "action": "fill",
+          "locator": {
+            "role": "cell",
+            "name": "05:30 "
+          },
+          "text": "05:00"
+        },
+        {
+          "step": 35,
+          "action": "click",
+          "locator": {
+            "role": "cell",
+            "name": "08:",
+            "nth": 2
+          }
+        },
+        {
+          "step": 36,
+          "action": "assertSnapshot",
+          "locator": {
+            "css": "#ts_mydata_timelogs_bulk_view_popup"
+          },
+          "snapshotName": "snapshot-page-step-36"
+        },
+        {
+          "step": 37,
+          "action": "assertText",
+          "locator": {
+            "css": "#timelogs_bulk_view"
+          },
+          "text": "07-Jun-2026 - 13-Jun-2026",
+          "assertType": "exact"
+        },
+        {
+          "step": 38,
+          "action": "click",
+          "locator": {
+            "role": "button",
+            "name": "Save"
+          }
+        },
+        {
+          "step": 39,
+          "action": "click",
+          "locator": {
+            "role": "listitem",
+            "hasText": "Attendance"
+          }
+        },
+        {
+          "step": 40,
+          "action": "click",
+          "locator": {
+            "role": "listitem",
+            "name": "LMS"
+          }
+        },
+        {
+          "step": 41,
+          "action": "assertVisible",
+          "locator": {
+            "role": "link",
+            "name": "Learning Competency"
+          }
+        },
+        {
+          "step": 42,
+          "action": "click",
+          "locator": {
+            "role": "link",
+            "name": "Skill Set"
+          }
+        },
+        {
+          "step": 43,
+          "action": "click",
+          "locator": {
+            "css": "#zp_maintabs div",
+            "hasText": "Home"
+          }
+        }
+      ],
+      "url": "https://myhrms.kanini.com/kanini/zp#home/myspace/overview-actionlist"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+﻿{
+  "meta": {
+    "sourceUrl": "https://demo.playwright.dev/todomvc/#/",
+    "generatedAt": "2026-06-10T08:13:46.973Z",
+    "browser": "chromium",
+    "headless": false
+  },
+  "pages": [
+    {
+      "alias": "page",
+      "url": "https://demo.playwright.dev/todomvc/#/",
+      "steps": [
+        {
+          "step": 1,
+          "action": "click",
+          "locator": { "role": "textbox", "name": "What needs to be done?" }
+        },
+        {
+          "step": 2,
+          "action": "fill",
+          "locator": { "role": "textbox", "name": "What needs to be done?" },
+          "text": "[REDACTED]"
+        },
+        {
+          "step": 3,
+          "action": "press",
+          "locator": { "role": "textbox", "name": "What needs to be done?" },
+          "key": "Enter"
+        },
+        {
+          "step": 4,
+          "action": "check",
+          "locator": { "role": "checkbox", "name": "Toggle Todo" }
+        },
+        {
+          "step": 5,
+          "action": "press",
+          "locator": { "role": "checkbox", "name": "Toggle Todo" },
+          "key": "Shift+N"
+        },
+        {
+          "step": 6,
+          "action": "press",
+          "locator": { "role": "checkbox", "name": "Toggle Todo" },
+          "key": "e"
+        },
+        {
+          "step": 7,
+          "action": "press",
+          "locator": { "role": "checkbox", "name": "Toggle Todo" },
+          "key": "w"
+        },
+        {
+          "step": 8,
+          "action": "uncheck",
+          "locator": { "role": "checkbox", "name": "Toggle Todo" }
+        },
+        {
+          "step": 9,
+          "action": "click",
+          "locator": { "role": "textbox", "name": "What needs to be done?" }
+        },
+        {
+          "step": 10,
+          "action": "fill",
+          "locator": { "role": "textbox", "name": "What needs to be done?" },
+          "text": "[REDACTED]"
+        },
+        {
+          "step": 11,
+          "action": "press",
+          "locator": { "role": "textbox", "name": "What needs to be done?" },
+          "key": "Enter"
+        },
+        {
+          "step": 12,
+          "action": "press",
+          "locator": { "role": "textbox", "name": "What needs to be done?" },
+          "key": "Enter"
+        },
+        {
+          "step": 13,
+          "action": "fill",
+          "locator": { "role": "textbox", "name": "What needs to be done?" },
+          "text": "[REDACTED]"
+        },
+        {
+          "step": 14,
+          "action": "press",
+          "locator": { "role": "textbox", "name": "What needs to be done?" },
+          "key": "Enter"
+        },
+        {
+          "step": 15,
+          "action": "check",
+          "locator": { "role": "listitem", "hasText": "Hi what up", "label": "Toggle Todo" }
+        },
+        {
+          "step": 16,
+          "action": "click",
+          "locator": { "role": "button", "name": "Clear completed" }
+        }
+      ]
+    },
+    {
+      "alias": "page1",
+      "url": "https://playwright.dev/",
+      "steps": [
+        {
+          "step": 17,
+          "action": "click",
+          "locator": { "role": "link", "name": "Get started" }
+        },
+        {
+          "step": 18,
+          "action": "click",
+          "locator": { "role": "link", "name": "Trace viewer", "nth": 0 }
+        },
+        {
+          "step": 19,
+          "action": "click",
+          "locator": { "role": "button", "name": "Watch Viewing Playwright" }
+        },
+        {
+          "step": 20,
+          "action": "click",
+          "frame": "iframe[title='Viewing Playwright Traces']",
+          "locator": { "css": "player-bottom-controls div", "hasText": ":01Time elapsed" }
+        },
+        {
+          "step": 21,
+          "action": "click",
+          "frame": "iframe[title='Viewing Playwright Traces']",
+          "locator": { "role": "slider", "name": "Seek slider" }
+        },
+        {
+          "step": 22,
+          "action": "click",
+          "frame": "iframe[title='Viewing Playwright Traces']",
+          "locator": { "css": ".ytChapteredProgressBarHost > div:nth-child(3)" }
+        },
+        {
+          "step": 23,
+          "action": "click",
+          "frame": "iframe[title='Viewing Playwright Traces']",
+          "locator": { "role": "button", "name": "Play video" }
+        },
+        {
+          "step": 24,
+          "action": "click",
+          "frame": "iframe[title='Viewing Playwright Traces']",
+          "locator": { "role": "button", "name": "More videos" }
+        },
+        {
+          "step": 25,
+          "action": "click",
+          "frame": "iframe[title='Viewing Playwright Traces']",
+          "locator": { "css": "a", "hasText": ":39" },
+          "popup": "page2"
+        }
+      ]
+    },
+    {
+      "alias": "page2",
+      "openedBy": { "page": "page1", "step": 25 },
+      "steps": [
+        {
+          "step": 26,
+          "action": "click",
+          "locator": { "role": "button", "name": "Pause keyboard shortcut k" }
+        }
+      ]
+    }
+  ]
+}

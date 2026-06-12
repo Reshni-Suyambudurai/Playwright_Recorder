@@ -1,0 +1,19 @@
+{
+  "name": "playwright-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "record:convert": "node record-and-convert.js",
+    "jsonl:convert": "node record-and-convert.js --convert"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.2",
+    "playwright": "^1.60.0"
+  }
+}
