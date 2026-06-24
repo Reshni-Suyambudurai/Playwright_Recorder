@@ -1,4 +1,4 @@
-# Playwright Notes
+﻿# Playwright Notes
 
 ## What Is Playwright?
 
@@ -8,66 +8,65 @@ Playwright is a browser automation framework that allows code to control a brows
 
 It can:
 
-Open websites
+- Open websites
+- Click buttons
+- Fill forms
+- Upload/download files
+- Capture screenshots
+- Test applications
+- Automate repetitive tasks
 
-Click buttons
-
-Fill forms
-
-Upload/download files
-
-Capture screenshots
-
-Test applications
-
-Automate repetitive tasks
-
-What is Playwright Built On?
+### What is Playwright Built On?
 
 Playwright is primarily built using:
 
-TypeScript
+- TypeScript
+- Node.js
 
-Node.js
-
-How Playwright Talks to Browsers
+### How Playwright Talks to Browsers
 
 Playwright communicates directly with browsers using browser protocols.
 
-Chrome / Edge
+#### Chrome / Edge
 
 Uses:
 
-Chrome DevTools Protocol (CDP)
+- Chrome DevTools Protocol (CDP)
 
 Example:
 
+```text
 Playwright
-↓
+      ↓
 Chrome DevTools Protocol
-↓
+      ↓
 Chrome Browser
-↓
+      ↓
 Execute Action
+```
 
 Playwright sends commands like:
 
+```json
 {
-"method":"Page.navigate",
-"url":"https://google.com"
+  "method": "Page.navigate",
+  "url": "https://google.com"
 }
+```
 
 Chrome receives the command and performs the action.
 
-Browser Layers
+#### Browser Layers
 
+```text
 Website
-↑
+   ↑
 DOM
-↑
+   ↑
 Browser
-↑
+   ↑
 Operating System
+```
 
 ### Why Use Playwright?
 
@@ -81,6 +80,8 @@ Operating System
 - **Mobile and responsive testing**: Emulates mobile devices and different screen sizes.
 - **Easy setup**: Needs minimal configuration compared to many alternatives.
 - **Modern architecture**: Designed for SPAs and other complex web applications.
+
+---
 
 ## The 5 Core Playwright Objects
 
@@ -112,7 +113,7 @@ Example:
 
 ```js
 const page = await context.newPage();
-await page.goto("https://example.com");
+await page.goto('https://example.com');
 ```
 
 ### 4. Locator
@@ -122,7 +123,7 @@ A locator is the preferred way to find elements on the page.
 Example:
 
 ```js
-await page.getByRole("button", { name: "Submit" }).click();
+await page.getByRole('button', { name: 'Submit' }).click();
 ```
 
 ### 5. Assertions
@@ -135,7 +136,9 @@ Example:
 await expect(page).toHaveTitle(/Playwright/);
 ```
 
-## - Debugging
+---
+
+## Debugging
 
 ### Recorder
 
@@ -208,11 +211,13 @@ Playwright can capture screenshots during the test run for visual checks.
 
 Example:
 
+```ts
 use: {
-screenshot: 'only-on-failure',
-video: 'retain-on-failure',
-trace: 'on-first-retry',
+  screenshot: 'only-on-failure',
+  video: 'retain-on-failure',
+  trace: 'on-first-retry',
 },
+```
 
 ```bash
 npx playwright test tests/medium.spec.ts --project=chromium
@@ -265,6 +270,8 @@ await page.pause();
 
 ![Screenshot 4](images/Screenshot%202026-06-10%20000252.png)
 
+---
+
 ## Playwright Features
 
 ### Cross-browser support
@@ -300,7 +307,7 @@ Playwright waits for elements to be ready before interacting with them.
 Example:
 
 ```js
-await page.getByRole("button", { name: "Submit" }).click();
+await page.getByRole('button', { name: 'Submit' }).click();
 ```
 
 ### Locator
@@ -310,11 +317,11 @@ A **Locator** is a Playwright method used to find and interact with elements on 
 #### Examples
 
 ```javascript
-await page.getByRole("button", { name: "Submit" }).click();
+await page.getByRole('button', { name: 'Submit' }).click();
 
-await page.getByLabel("Email").fill("user@example.com");
+await page.getByLabel('Email').fill('user@example.com');
 
-await page.getByText("Login").click();
+await page.getByText('Login').click();
 ```
 
 ---
@@ -328,8 +335,8 @@ A **Selector** is a string pattern used to identify elements in the DOM.
 ##### CSS Selector
 
 ```javascript
-await page.locator("#username").fill("user");
-await page.locator(".submit-btn").click();
+await page.locator('#username').fill('user');
+await page.locator('.submit-btn').click();
 ```
 
 ##### XPath Selector
@@ -354,11 +361,9 @@ Use locators in the following order:
 8. CSS Selector
 9. XPath Selector
 
-- Page -> Browser tab
-
-- Locator -> Find elements
-
-- POM -> Organize automation framework
+- Page     → Browser tab
+- Locator  → Find elements
+- POM      → Organize automation framework
 
 ### Assertions
 
@@ -377,10 +382,7 @@ Interact with content inside iframes.
 Example:
 
 ```js
-await page
-  .frameLocator("iframe")
-  .getByRole("button", { name: "Submit" })
-  .click();
+await page.frameLocator('iframe').getByRole('button', { name: 'Submit' }).click();
 ```
 
 ### Element handles
@@ -390,7 +392,7 @@ Work with a specific DOM element directly when needed.
 Example:
 
 ```js
-const button = await page.$("button");
+const button = await page.$('button');
 ```
 
 ### Downloads
@@ -400,7 +402,7 @@ Capture and verify files downloaded by the browser.
 Example:
 
 ```js
-const downloadPromise = page.waitForEvent("download");
+const downloadPromise = page.waitForEvent('download');
 ```
 
 ### Events
@@ -410,7 +412,7 @@ Listen for browser or page events such as request, response, download, or popup.
 Example:
 
 ```js
-page.on("console", (message) => console.log(message.text()));
+page.on('console', message => console.log(message.text()));
 ```
 
 ### Network
@@ -420,7 +422,7 @@ Inspect, wait for, or mock HTTP requests and responses.
 Example:
 
 ```js
-await page.waitForResponse("**/api/users");
+await page.waitForResponse('**/api/users');
 ```
 
 ### Navigation
@@ -430,7 +432,7 @@ Move through pages, routes, and browser history.
 Example:
 
 ```js
-await page.goto("https://example.com");
+await page.goto('https://example.com');
 ```
 
 ### Screenshots
@@ -440,7 +442,7 @@ Capture page or element images for verification and reporting.
 Example:
 
 ```js
-await page.screenshot({ path: "home.png" });
+await page.screenshot({ path: 'home.png' });
 ```
 
 ### Touch events
@@ -460,7 +462,7 @@ Run tests in parallel using multiple workers.
 Example:
 
 ```ts
-fullyParallel: true;
+fullyParallel: true
 ```
 
 ### POM (Page Object Model)
@@ -470,7 +472,7 @@ Organize selectors and actions into reusable page classes.
 Example:
 
 ```js
-await loginPage.login("user1", "secret");
+await loginPage.login('user1', 'secret');
 ```
 
 ### Clock
@@ -500,11 +502,7 @@ Extend Playwright with fixtures, test hooks, plugins, and custom helpers.
 Example:
 
 ```js
-test.extend({
-  myFixture: async ({}, use) => {
-    await use("value");
-  },
-});
+test.extend({ myFixture: async ({}, use) => { await use('value'); } })
 ```
 
 ### WebView2
@@ -552,8 +550,10 @@ Capture a trace automatically when a test fails and retries.
 Example:
 
 ```ts
-trace: "on-first-retry";
+trace: 'on-first-retry'
 ```
+
+---
 
 ## Real-World Use Cases
 
@@ -574,6 +574,8 @@ trace: "on-first-retry";
 - Accessibility checking: verify roles, labels, and headings are exposed correctly.
   - Example: `await page.getByRole('button', { name: 'Submit' }).click();`
 
+---
+
 ## Common Commands
 
 ```bash
@@ -582,6 +584,8 @@ npx playwright test --headed
 npx playwright test --debug
 npx playwright test --ui
 ```
+
+---
 
 ### AST
 
@@ -611,31 +615,39 @@ Browser Actions
  Generate TypeScript when needed
 ```
 
-One-Line Memory Trick
+---
+
+### One-Line Memory Trick
 
 Think of Playwright as a robot tester:
 
-Find things → Locators
-Do things → Actions
-Move around → Navigation
-Open tabs → Pages
-Login → Authentication
-Check results → Assertions
-Take photos → Screenshots
-Record videos → Videos
-Watch traffic → Network
-Fake responses → Mock APIs
-Debug problems → Trace Viewer
-Stay organized → POM
-Run faster → Multithreading
-Pretend devices → Emulation
-Control time → Clock
+| Action          | Tool           |
+|-----------------|----------------|
+| Find things     | Locators       |
+| Do things       | Actions        |
+| Move around     | Navigation     |
+| Open tabs       | Pages          |
+| Login           | Authentication |
+| Check results   | Assertions     |
+| Take photos     | Screenshots    |
+| Record videos   | Videos         |
+| Watch traffic   | Network        |
+| Fake responses  | Mock APIs      |
+| Debug problems  | Trace Viewer   |
+| Stay organized  | POM            |
+| Run faster      | Multithreading |
+| Pretend devices | Emulation      |
+| Control time    | Clock          |
 
 This mental model is enough to understand 80–90% of Playwright before diving into actual coding.
+
+---
 
 ## Short Summary
 
 Playwright is mainly used for browser automation and testing. The first things to understand are the browser, context, page, locator, and assertions. After that, the key strengths are cross-browser support, auto-waiting, debugging tools, and real-world workflow coverage.
+
+---
 
 ## Playwright MCP
 
@@ -648,7 +660,7 @@ Playwright is mainly used for browser automation and testing. The first things t
 ```text
 User
  ↓
-AI Assitant(Cursor,Windsurf,co-pilot)
+AI Assistant (Cursor, Windsurf, Copilot)
  ↓
 Playwright MCP
  ↓
@@ -661,27 +673,22 @@ Instead of telling you how to do something, the AI can actually do it.
 
 ---
 
-# What Can Playwright MCP Do?
+## What Can Playwright MCP Do?
 
-Navigation: Open URLs, go back/forward, reload pages.​
-
-Clicking and typing: Click elements, type text, fill forms, select dropdowns.​
-
-Screenshots: Capture the current page or specific elements for visual verification.​
-
-Keyboard and mouse: Press keys, hover, drag and drop.​
-
-Dialogs: Accept or dismiss browser dialogs.​
-
-Tabs: Create, close, and switch between browser tabs.​
+- **Navigation**: Open URLs, go back/forward, reload pages.
+- **Clicking and typing**: Click elements, type text, fill forms, select dropdowns.
+- **Screenshots**: Capture the current page or specific elements for visual verification.
+- **Keyboard and mouse**: Press keys, hover, drag and drop.
+- **Dialogs**: Accept or dismiss browser dialogs.
+- **Tabs**: Create, close, and switch between browser tabs.
 
 ---
 
-# User Profile Modes
+## User Profile Modes
 
-## Persistent Mode (Default)
+### Persistent Mode (Default)
 
-### What it does
+#### What it does
 
 Keeps:
 
@@ -703,9 +710,9 @@ Best for:
 
 ---
 
-## Isolated Mode
+### Isolated Mode
 
-### What it does
+#### What it does
 
 Starts fresh every time.
 
@@ -728,9 +735,9 @@ Best for:
 
 ---
 
-## Browser Extension Mode
+### Browser Extension Mode
 
-### What it does
+#### What it does
 
 Uses your existing browser.
 
@@ -749,11 +756,11 @@ Best for:
 
 ---
 
-# 4. How Playwright MCP Reads a Page
+## How Playwright MCP Reads a Page
 
 This is the most important concept.
 
-## Screenshot ❌ (Not Default)
+### Screenshot ❌ (Not Default)
 
 A screenshot is just an image.
 
@@ -774,7 +781,7 @@ This requires vision.
 
 ---
 
-## Accessibility Snapshot ✅ (Default)
+### Accessibility Snapshot ✅ (Default)
 
 Playwright MCP uses:
 
@@ -793,16 +800,18 @@ link "Gmail"
 ```
 
 The AI immediately knows:
-browser_type { ref: "e5", text: "headphones" } → type into search
-browser_click { ref: "e10" } → check the checkbox
-browser_click { ref: "e20" } → click the "All" link
+
+- `browser_type   { ref: "e5", text: "headphones" }` → type into search
+- `browser_click  { ref: "e10" }` → check the checkbox
+- `browser_click  { ref: "e20" }` → click the "All" link
+
 No guessing.
 
 This is why Playwright MCP is fast and reliable. It works with structured page information instead of images.
 
 ---
 
-## When Are Screenshots Used?
+### When Are Screenshots Used?
 
 Only when needed.
 
@@ -828,23 +837,18 @@ Vision Mode is a fallback, not the default.
 
 ---
 
-# 6. Playwright MCP Limitations
+## Playwright MCP Limitations
 
 Playwright MCP is powerful, but it is only the browser tool.
 
 It does NOT automatically know:
 
-❌ Your passwords
-
-❌ Your company policies
-
-❌ Your timesheet data
-
-❌ Your Jira tickets
-
-❌ Your business logic
-
-❌ What you worked on last week
+- ❌ Your passwords
+- ❌ Your company policies
+- ❌ Your timesheet data
+- ❌ Your Jira tickets
+- ❌ Your business logic
+- ❌ What you worked on last week
 
 It only knows what is visible on the browser page. Other information must come from:
 
@@ -857,7 +861,7 @@ It only knows what is visible on the browser page. Other information must come f
 
 ---
 
-## Accessibility Snapshot Limitations
+### Accessibility Snapshot Limitations
 
 Snapshots may not work well for:
 
@@ -871,18 +875,14 @@ In these cases, Vision Mode (screenshots) is required.
 
 ---
 
-# Best Mental Model
+## Best Mental Model
 
 ```text
-AI Agent = Brain
-
-Playwright MCP = Translator
-
-Playwright = Hands
-
-Browser = Eyes & Hands
-
-Website = Environment
+AI Agent        = Brain
+Playwright MCP  = Translator
+Playwright      = Hands
+Browser         = Eyes & Hands
+Website         = Environment
 ```
 
 The AI decides **what to do**, while Playwright MCP performs the actual browser actions.

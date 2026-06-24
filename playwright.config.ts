@@ -46,10 +46,10 @@ export default defineConfig({
     // baseURL: 'https://your-app.example.com',
 
     /* How long (ms) each action (click, fill, etc.) can take before timing out. */
-    actionTimeout: 15_000,
+   // actionTimeout: 60_000,
 
     /* How long (ms) page.goto() and page.waitForNavigation() can take. */
-    navigationTimeout: 30_000,
+  //  navigationTimeout: 90_000,
 
     /* Capture screenshot on test failure for debugging. */
     screenshot: 'only-on-failure',

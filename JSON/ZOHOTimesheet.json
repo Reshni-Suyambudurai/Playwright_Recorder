@@ -1,0 +1,194 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "action": "goto",
+      "url": "https://accounts.zoho.in/signin?servicename=zohopeople&serviceurl=https%3A%2F%2Fmyhrms.kanini.com%2Fkanini%2Fzp#home/myspace/overview-actionlist"
+    },
+    {
+      "step": 2,
+      "action": "fill",
+      "selector": "textbox[Email address or mobile number]",
+      "value": "Reshni.Suyambudurai@kanini.com"
+    },
+    {
+      "step": 3,
+      "action": "click",
+      "selector": "button[Next]"
+    },
+    {
+      "step": 4,
+      "action": "fill",
+      "selector": "textbox[Enter your email, phone, or]",
+      "value": "Reshni.Suyambudurai@kanini.com"
+    },
+    {
+      "step": 5,
+      "action": "click",
+      "selector": "button[Next]"
+    },
+    {
+      "step": 6,
+      "action": "fill",
+      "selector": "#i0118",
+      "value": "demoo@123"
+    },
+    {
+      "step": 7,
+      "action": "press",
+      "selector": "#i0118",
+      "key": "Enter"
+    },
+    {
+      "step": 8,
+      "action": "click",
+      "selector": "button[Sign in]"
+    },
+    {
+      "step": 9,
+      "action": "click",
+      "selector": "#lightbox"
+    },
+    {
+      "step": 10,
+      "action": "click",
+      "selector": "button[Yes]"
+    },
+    {
+      "step": 11,
+      "action": "goto",
+      "url": "https://myhrms.kanini.com/kanini/zp#home/myspace/overview-actionlist"
+    },
+    {
+      "step": 12,
+      "action": "click",
+      "selector": "Leave Tracker icon"
+    },
+    {
+      "step": 13,
+      "action": "click",
+      "selector": "Time Tracker icon"
+    },
+    {
+      "step": 14,
+      "action": "goto",
+      "url": "https://myhrms.kanini.com/kanini/zp#timetracker/mydata/timelogs-mode:list"
+    },
+    {
+      "step": 15,
+      "action": "click",
+      "selector": "#my_logselectBtn"
+    },
+    {
+      "step": 16,
+      "action": "click",
+      "selector": "Weekly Log"
+    },
+    {
+      "step": 17,
+      "action": "click",
+      "selector": "#weekclientselect1-container"
+    },
+    {
+      "step": 18,
+      "action": "click",
+      "selector": "#weekjobselect1-container"
+    },
+    {
+      "step": 19,
+      "action": "click",
+      "selector": "#zzselect-62604592-listbox-searchbox"
+    },
+    {
+      "step": 20,
+      "action": "select",
+      "selector": "Job Type",
+      "value": "Learning & Development"
+    },
+    {
+      "step": 21,
+      "action": "fill",
+      "selector": "#weekworkitem1",
+      "value": "Going through angular concepts"
+    },
+    {
+      "step": 22,
+      "action": "fill",
+      "selector": "row1.daytxt2",
+      "value": "3"
+    },
+    {
+      "step": 23,
+      "action": "click",
+      "selector": "#weekjobselect2-container"
+    },
+    {
+      "step": 24,
+      "action": "select",
+      "selector": "Job Type",
+      "value": "Meeting"
+    },
+    {
+      "step": 25,
+      "action": "fill",
+      "selector": "#weekworkitem2",
+      "value": "Daily scrum"
+    },
+    {
+      "step": 26,
+      "action": "fill",
+      "selector": "row2.daytxt2",
+      "value": "1"
+    },
+    {
+      "step": 27,
+      "action": "click",
+      "selector": "#weekclientselect3-container"
+    },
+    {
+      "step": 28,
+      "action": "select",
+      "selector": "Client",
+      "value": "KANINI - Internal"
+    },
+    {
+      "step": 29,
+      "action": "click",
+      "selector": "#weekprojectselect3-container"
+    },
+    {
+      "step": 30,
+      "action": "select",
+      "selector": "Project",
+      "value": "Organizational Activities"
+    },
+    {
+      "step": 31,
+      "action": "click",
+      "selector": "#weekjobselect3-container"
+    },
+    {
+      "step": 32,
+      "action": "select",
+      "selector": "Job Type",
+      "value": "Learning & Development"
+    },
+    {
+      "step": 33,
+      "action": "fill",
+      "selector": "#weekworkitem3",
+      "value": "Reviewing Playwright automation projects spec and design.md files"
+    },
+    {
+      "step": 34,
+      "action": "fill",
+      "selector": "row3.daytxt2",
+      "value": "1"
+    },
+    {
+      "step": 35,
+      "action": "click",
+      "selector": "button[Save]"
+    }
+  ]
+}
