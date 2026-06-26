@@ -1,0 +1,92 @@
+{
+  "summary": {
+    "total": 10,
+    "passed": 4,
+    "failed": 1,
+    "skipped": 5,
+    "duration": "10.28s",
+    "recording_file": "amazon1.json"
+  },
+  "results": [
+    {
+      "index": 0,
+      "action": "goto",
+      "status": "passed",
+      "duration_ms": 1828.0000002123415,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 1,
+      "action": "click",
+      "status": "passed",
+      "duration_ms": 483.99999970570207,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 2,
+      "action": "fill",
+      "status": "passed",
+      "duration_ms": 63.00000008195639,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 3,
+      "action": "goto",
+      "status": "passed",
+      "duration_ms": 2186.9999999180436,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 4,
+      "action": "click",
+      "status": "failed",
+      "duration_ms": 485.0000003352761,
+      "error": "Locator.click: Error: strict mode violation: get_by_role(\"button\", name=\"XS\") resolved to 3 elements:\n    1) <button value=\"3XS\" type=\"button\" aria-label=\"3XS\" aria-pressed=\"false\" id=\"a-autoid-72-announce\" class=\"a-button-text a-text-center\">…</button> aka get_by_role(\"button\", name=\"3XS\")\n    2) <button value=\"2XS\" type=\"button\" aria-label=\"2XS\" aria-pressed=\"false\" id=\"a-autoid-73-announce\" class=\"a-button-text a-text-center\">…</button> aka get_by_role(\"button\", name=\"2XS\")\n    3) <button value=\"XS\" type=\"button\" aria-label=\"XS\" aria-pressed=\"false\" id=\"a-autoid-74-announce\" class=\"a-button-text a-text-center\">…</button> aka get_by_role(\"button\", name=\"XS\", exact=True)\n\nCall log:\n  - waiting for get_by_role(\"button\", name=\"XS\")\n",
+      "screenshot": "screenshots\\failure_5_click.png"
+    },
+    {
+      "index": 5,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 5,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 5,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 5,
+      "action": "closePage",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 5,
+      "action": "closePage",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    }
+  ]
+}

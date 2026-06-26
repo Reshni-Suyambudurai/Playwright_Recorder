@@ -1,0 +1,145 @@
+<div class="shell">
+
+  <!-- ── Header ────────────────────────────────────────────── -->
+  <header class="header">
+    <div class="header-inner">
+      <span class="logo">▶ Playwright Recorder</span>
+      <span class="subtitle">Convert · Parameterise · Execute</span>
+    </div>
+  </header>
+
+  <!-- ── Server error banner ───────────────────────────────── -->
+  <div class="banner error" *ngIf="serverError">
+    {{ serverError }}
+  </div>
+
+  <main class="main">
+
+    <!-- ── Flow selector ─────────────────────────────────── -->
+    <section class="card">
+      <h2 class="card-title">Select Flow</h2>
+      <p class="hint">Flows are loaded from <code>output/</code>. Run <code>python main.py convert</code> first.</p>
+      <select class="select" (change)="onFlowSelect($event)">
+        <option value="">-- choose a recorded flow --</option>
+        <option *ngFor="let f of flows" [value]="f">{{ f }}</option>
+      </select>
+    </section>
+
+    <!-- ── Parameter form ────────────────────────────────── -->
+    <section class="card" *ngIf="selectedFlow">
+      <h2 class="card-title">
+        {{ selectedFlow.flowName }}
+        <span class="badge">{{ selectedFlow.steps.length }} steps</span>
+      </h2>
+
+      <form [formGroup]="paramsForm" (ngSubmit)="run()">
+
+        <!-- Credentials -->
+        <div class="param-group" *ngIf="credKeys.length > 0">
+          <h3 class="group-title sensitive-title">🔒 Credentials</h3>
+          <div class="field-row" *ngFor="let key of credKeys">
+            <label class="label">{{ field('credentials', key).label }}</label>
+            <input
+              class="input"
+              type="password"
+              [formControlName]="'credentials.' + key"
+              [placeholder]="'Enter ' + field('credentials', key).label"
+              autocomplete="current-password"
+            />
+          </div>
+        </div>
+
+        <!-- Run parameters -->
+        <div class="param-group" *ngIf="paramKeys.length > 0">
+          <h3 class="group-title">⚙️ Run Parameters</h3>
+          <div class="field-row" *ngFor="let key of paramKeys">
+            <label class="label">{{ field('runParameters', key).label }}</label>
+            <input
+              class="input"
+              type="text"
+              [formControlName]="'runParameters.' + key"
+              [placeholder]="field('runParameters', key).label"
+            />
+          </div>
+        </div>
+
+        <div *ngIf="credKeys.length === 0 && paramKeys.length === 0" class="hint">
+          No parameters required for this flow.
+        </div>
+
+        <div class="actions">
+          <button
+            class="btn btn-primary"
+            type="submit"
+            [disabled]="running || paramsForm.invalid"
+          >
+            <span *ngIf="!running">▶ Run Flow</span>
+            <span *ngIf="running" class="spinner">Running…</span>
+          </button>
+        </div>
+      </form>
+    </section>
+
+    <!-- ── Report ─────────────────────────────────────────── -->
+    <section class="card report-card" *ngIf="report">
+      <h2 class="card-title">Execution Report</h2>
+
+      <div class="summary-row">
+        <div class="stat total">
+          <span class="stat-num">{{ report.summary.total }}</span>
+          <span class="stat-lbl">Total</span>
+        </div>
+        <div class="stat passed">
+          <span class="stat-num">{{ report.summary.passed }}</span>
+          <span class="stat-lbl">Passed</span>
+        </div>
+        <div class="stat failed">
+          <span class="stat-num">{{ report.summary.failed }}</span>
+          <span class="stat-lbl">Failed</span>
+        </div>
+        <div class="stat skipped">
+          <span class="stat-num">{{ report.summary.skipped }}</span>
+          <span class="stat-lbl">Skipped</span>
+        </div>
+        <div class="stat duration">
+          <span class="stat-num">{{ report.summary.duration }}</span>
+          <span class="stat-lbl">Duration</span>
+        </div>
+      </div>
+
+      <!-- Progress bar -->
+      <div class="progress-bar">
+        <div class="progress-fill" [style.width.%]="passRate"
+             [class.full]="passRate === 100"></div>
+      </div>
+      <p class="pass-rate">{{ passRate }}% passed</p>
+
+      <!-- Steps table -->
+      <div class="table-wrap">
+        <table class="steps-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Action</th>
+              <th>Status</th>
+              <th>Duration</th>
+              <th>Error</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let r of report.results" [class]="'row-' + r.status">
+              <td>{{ r.index + 1 }}</td>
+              <td><code>{{ r.action }}</code></td>
+              <td>
+                <span class="status-chip" [class]="r.status">{{ r.status }}</span>
+              </td>
+              <td>{{ r.duration_ms.toFixed(0) }} ms</td>
+              <td class="error-cell">{{ r.error ?? '' }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </main>
+</div>

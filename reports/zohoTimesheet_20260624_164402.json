@@ -1,0 +1,380 @@
+{
+  "summary": {
+    "total": 46,
+    "passed": 5,
+    "failed": 1,
+    "skipped": 40,
+    "duration": "70.53s",
+    "recording_file": "zohoTimesheet"
+  },
+  "results": [
+    {
+      "index": 0,
+      "action": "goto",
+      "status": "passed",
+      "duration_ms": 530.9999999590218,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 1,
+      "action": "click",
+      "status": "passed",
+      "duration_ms": 1578.0000002123415,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 2,
+      "action": "fill",
+      "status": "passed",
+      "duration_ms": 15.999999828636646,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 3,
+      "action": "click",
+      "status": "passed",
+      "duration_ms": 78.00000021234155,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 4,
+      "action": "click",
+      "status": "passed",
+      "duration_ms": 61.99999991804361,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 5,
+      "action": "click",
+      "status": "failed",
+      "duration_ms": 60250.0,
+      "error": "Locator.click: Timeout 60000ms exceeded.\nCall log:\n  - waiting for get_by_role(\"textbox\", name=\"Email address or mobile number\")\n    - waiting for\" https://login.microsoftonline.com/61330b40-bb04-4d25-b959-f3700fbe6023/saml2?SAMLRequest=fVLJjtsgGH4Vi7tt8G4UR3Inqhpp2lqTtIe5jDDgBMkGlx%2Bny9OXeBZFqjpckP7l22ADbBpn2i7urB%2Fkj0WCC35Nowa6Nhq0WE0NAwVUs0…\" navigation to finish...\n    - navigated to \"https://login.microsoftonline.com/61330b40-bb04-4d25-b959-f3700fbe6023/saml2?SAMLRequest=fVLJjtsgGH4Vi7tt8G4UR3Inqhpp2lqTtIe5jDDgBMkGlx%2Bny9OXeBZFqjpckP7l22ADbBpn2i7urB%2Fkj0WCC35Nowa6Nhq0WE0NAwVUs0…\"\n",
+      "screenshot": "screenshots\\failure_5_click.png"
+    },
+    {
+      "index": 6,
+      "action": "fill",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "fill",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "fill",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "press",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "goto",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "goto",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "fill",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "fill",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "fill",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "fill",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "fill",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "fill",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    }
+  ]
+}

@@ -1,0 +1,566 @@
+{
+  "flowName": "recorded",
+  "source": {
+    "type": "playwright_ts"
+  },
+  "steps": [
+    {
+      "step": 1,
+      "action": "goto",
+      "by": "url",
+      "selector": "https://accounts.zoho.in/signin?servicename=zohopeople&serviceurl=https%3A%2F%2Fmyhrms.kanini.com%2Fkanini%2Fzp#home/myspace/overview-actionlist%22,
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.goto('https://accounts.zoho.in/signin?servicename=zohopeople&serviceurl=https%3A%2F%2Fmyhrms.kanini.com%2Fkanini%2Fzp#home/myspace/overview-actionlist%27);%22
+      }
+    },
+    {
+      "step": 2,
+      "action": "click",
+      "by": "role",
+      "selector": {
+        "role": "textbox",
+        "name": "Email address or mobile number"
+      },
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('textbox', { name: 'Email address or mobile number' }).click();"
+      }
+    },
+    {
+      "step": 3,
+      "action": "fill",
+      "by": "role",
+      "selector": {
+        "role": "textbox",
+        "name": "Email address or mobile number"
+      },
+      "value": "{{runParameters.email_address_or_mobile_number}}",
+      "rawValue": "Reshni.Suyamby",
+      "paramKey": "runParameters.email_address_or_mobile_number",
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('textbox', { name: 'Email address or mobile number' }).fill('Reshni.Suyamby');"
+      }
+    },
+    {
+      "step": 4,
+      "action": "click",
+      "by": "text",
+      "selector": "Try smart sign-in STEP 1 OF 2",
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByText('Try smart sign-in STEP 1 OF 2').click();"
+      }
+    },
+    {
+      "step": 5,
+      "action": "click",
+      "by": "role",
+      "selector": {
+        "role": "textbox",
+        "name": "Email address or mobile number"
+      },
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('textbox', { name: 'Email address or mobile number' }).click();"
+      }
+    },
+    {
+      "step": 6,
+      "action": "click",
+      "by": "role",
+      "selector": {
+        "role": "textbox",
+        "name": "Email address or mobile number"
+      },
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('textbox', { name: 'Email address or mobile number' }).click();"
+      }
+    },
+    {
+      "step": 7,
+      "action": "fill",
+      "by": "role",
+      "selector": {
+        "role": "textbox",
+        "name": "Email address or mobile number"
+      },
+      "value": "{{runParameters.email_address_or_mobile_number}}",
+      "rawValue": "Reshni.Suyambudurai@kanini.com",
+      "paramKey": "runParameters.email_address_or_mobile_number",
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('textbox', { name: 'Email address or mobile number' }).fill('Reshni.Suyambudurai@kanini.com');"
+      }
+    },
+    {
+      "step": 8,
+      "action": "click",
+      "by": "role",
+      "selector": {
+        "role": "button",
+        "name": "Next"
+      },
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('button', { name: 'Next' }).click();"
+      }
+    },
+    {
+      "step": 9,
+      "action": "fill",
+      "by": "role",
+      "selector": {
+        "role": "textbox",
+        "name": "Enter your email, phone, or"
+      },
+      "value": "{{runParameters.enter_your_email_phone_or}}",
+      "rawValue": "Reshni.Suyambudurai@kanini.com",
+      "paramKey": "runParameters.enter_your_email_phone_or",
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('textbox', { name: 'Enter your email, phone, or' }).fill('Reshni.Suyambudurai@kanini.com');"
+      }
+    },
+    {
+      "step": 10,
+      "action": "click",
+      "by": "role",
+      "selector": {
+        "role": "button",
+        "name": "Next"
+      },
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('button', { name: 'Next' }).click();"
+      }
+    },
+    {
+      "step": 11,
+      "action": "fill",
+      "by": "css",
+      "selector": "#i0118",
+      "value": "{{runParameters.i0118}}",
+      "rawValue": "demoo@123",
+      "paramKey": "runParameters.i0118",
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.locator('#i0118').fill('demoo@123');"
+      }
+    },
+    {
+      "step": 12,
+      "action": "click",
+      "by": "role",
+      "selector": {
+        "role": "button",
+        "name": "Sign in"
+      },
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('button', { name: 'Sign in' }).click();"
+      }
+    },
+    {
+      "step": 13,
+      "action": "click",
+      "by": "css",
+      "selector": "#lightbox",
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.locator('#lightbox').click();"
+      }
+    },
+    {
+      "step": 14,
+      "action": "click",
+      "by": "role",
+      "selector": {
+        "role": "button",
+        "name": "Yes"
+      },
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('button', { name: 'Yes' }).click();"
+      }
+    },
+    {
+      "step": 15,
+      "action": "goto",
+      "by": "url",
+      "selector": "https://myhrms.kanini.com/kanini/zp#home/myspace/overview-actionlist",
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.goto('https://myhrms.kanini.com/kanini/zp#home/myspace/overview-actionlist');"
+      }
+    },
+    {
+      "step": 16,
+      "action": "goto",
+      "by": "url",
+      "selector": "https://myhrms.kanini.com/kanini/zp#timetracker/mydata/timelogs-mode:list",
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.goto('https://myhrms.kanini.com/kanini/zp#timetracker/mydata/timelogs-mode:list');"
+      }
+    },
+    {
+      "step": 17,
+      "action": "click",
+      "by": "css",
+      "selector": "#my_logselectBtn",
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.locator('#my_logselectBtn').click();"
+      }
+    },
+    {
+      "step": 18,
+      "action": "click",
+      "by": "text",
+      "selector": "Weekly Log",
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByText('Weekly Log').click();"
+      }
+    },
+    {
+      "step": 19,
+      "action": "click",
+      "by": "css",
+      "selector": "#weekclientselect1-container').getByText('Select",
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.locator('#weekclientselect1-container').getByText('Select').click();"
+      }
+    },
+    {
+      "step": 20,
+      "action": "click",
+      "by": "css",
+      "selector": "#weekjobselect1-container').getByText('Select",
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.locator('#weekjobselect1-container').getByText('Select').click();"
+      }
+    },
+    {
+      "step": 21,
+      "action": "click",
+      "by": "css",
+      "selector": "#zzselect-62604592-listbox-searchbox",
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.locator('#zzselect-62604592-listbox-searchbox').click();"
+      }
+    },
+    {
+      "step": 22,
+      "action": "click",
+      "by": "text",
+      "selector": "Learning & Development",
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByText('Learning & Development').click();"
+      }
+    },
+    {
+      "step": 23,
+      "action": "click",
+      "by": "css",
+      "selector": "#weekworkitem1",
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.locator('#weekworkitem1').click();"
+      }
+    },
+    {
+      "step": 24,
+      "action": "fill",
+      "by": "css",
+      "selector": "#weekworkitem1",
+      "value": "{{runParameters.weekworkitem1}}",
+      "rawValue": "Going through angular concepts",
+      "paramKey": "runParameters.weekworkitem1",
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.locator('#weekworkitem1').fill('Going through angular concepts');"
+      }
+    },
+    {
+      "step": 25,
+      "action": "click",
+      "by": "css",
+      "selector": "#weekjobselect2-container').getByText('Select",
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.locator('#weekjobselect2-container').getByText('Select').click();"
+      }
+    },
+    {
+      "step": 26,
+      "action": "click",
+      "by": "css",
+      "selector": "#zselect-39199233-listbox-11653000060460660').getByText('Meeting",
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.locator('#zselect-39199233-listbox-11653000060460660').getByText('Meeting').click();"
+      }
+    },
+    {
+      "step": 27,
+      "action": "click",
+      "by": "css",
+      "selector": "#weekworkitem2",
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.locator('#weekworkitem2').click();"
+      }
+    },
+    {
+      "step": 28,
+      "action": "fill",
+      "by": "css",
+      "selector": "#weekworkitem2",
+      "value": "{{runParameters.weekworkitem2}}",
+      "rawValue": "Daily scrum",
+      "paramKey": "runParameters.weekworkitem2",
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.locator('#weekworkitem2').fill('Daily scrum');"
+      }
+    },
+    {
+      "step": 29,
+      "action": "click",
+      "by": "css",
+      "selector": "#weekclientselect3-container').getByText('Select",
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.locator('#weekclientselect3-container').getByText('Select').click();"
+      }
+    },
+    {
+      "step": 30,
+      "action": "click",
+      "by": "css",
+      "selector": "#zselect-45148773-listbox-11653000019440024').getByText('KANINI - Internal",
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.locator('#zselect-45148773-listbox-11653000019440024').getByText('KANINI - Internal').click();"
+      }
+    },
+    {
+      "step": 31,
+      "action": "click",
+      "by": "css",
+      "selector": "#weekprojectselect3-container",
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.locator('#weekprojectselect3-container').click();"
+      }
+    },
+    {
+      "step": 32,
+      "action": "click",
+      "by": "role",
+      "selector": {
+        "role": "option",
+        "name": "Organizational Activities"
+      },
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('option', { name: 'Organizational Activities' }).click();"
+      }
+    },
+    {
+      "step": 33,
+      "action": "click",
+      "by": "css",
+      "selector": "#weekjobselect3-container').getByText('Select",
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.locator('#weekjobselect3-container').getByText('Select').click();"
+      }
+    },
+    {
+      "step": 34,
+      "action": "click",
+      "by": "css",
+      "selector": "#zselect-74738957-listbox-11653000035404978').getByText('Learning & Development",
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.locator('#zselect-74738957-listbox-11653000035404978').getByText('Learning & Development').click();"
+      }
+    },
+    {
+      "step": 35,
+      "action": "click",
+      "by": "css",
+      "selector": "#weekworkitem3",
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.locator('#weekworkitem3').click();"
+      }
+    },
+    {
+      "step": 36,
+      "action": "fill",
+      "by": "css",
+      "selector": "#weekworkitem3",
+      "value": "{{runParameters.weekworkitem3}}",
+      "rawValue": "Reviewing Playwright automation projects spec and design.md files",
+      "paramKey": "runParameters.weekworkitem3",
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.locator('#weekworkitem3').fill('Reviewing Playwright automation projects spec and design.md files');"
+      }
+    },
+    {
+      "step": 37,
+      "action": "click",
+      "by": "role",
+      "selector": {
+        "role": "button",
+        "name": "Save"
+      },
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('button', { name: 'Save' }).click();"
+      }
+    }
+  ],
+  "schema": {
+    "credentials": {},
+    "runParameters": {
+      "email_address_or_mobile_number": {
+        "type": "string",
+        "required": true,
+        "default": null,
+        "label": "Email Address Or Mobile Number"
+      },
+      "enter_your_email_phone_or": {
+        "type": "string",
+        "required": true,
+        "default": null,
+        "label": "Enter Your Email Phone Or"
+      },
+      "i0118": {
+        "type": "string",
+        "required": true,
+        "default": null,
+        "label": "I0118"
+      },
+      "weekworkitem1": {
+        "type": "string",
+        "required": true,
+        "default": null,
+        "label": "Weekworkitem1"
+      },
+      "weekworkitem2": {
+        "type": "string",
+        "required": true,
+        "default": null,
+        "label": "Weekworkitem2"
+      },
+      "weekworkitem3": {
+        "type": "string",
+        "required": true,
+        "default": null,
+        "label": "Weekworkitem3"
+      }
+    }
+  }
+}

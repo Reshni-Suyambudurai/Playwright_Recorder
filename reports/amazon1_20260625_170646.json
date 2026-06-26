@@ -1,0 +1,84 @@
+{
+  "summary": {
+    "total": 9,
+    "passed": 9,
+    "failed": 0,
+    "skipped": 0,
+    "duration": "11.67s",
+    "recording_file": "amazon1.json"
+  },
+  "results": [
+    {
+      "index": 0,
+      "action": "goto",
+      "status": "passed",
+      "duration_ms": 657.0000001229346,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 1,
+      "action": "click",
+      "status": "passed",
+      "duration_ms": 1203.0000002123415,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 2,
+      "action": "fill",
+      "status": "passed",
+      "duration_ms": 30.999999959021807,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 3,
+      "action": "press",
+      "status": "passed",
+      "duration_ms": 250.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 4,
+      "action": "click",
+      "status": "passed",
+      "duration_ms": 1140.9999998286366,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 5,
+      "action": "click",
+      "status": "passed",
+      "duration_ms": 1092.9999998770654,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "click",
+      "status": "passed",
+      "duration_ms": 375.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 7,
+      "action": "click",
+      "status": "passed",
+      "duration_ms": 1485.0000003352761,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 8,
+      "action": "closePage",
+      "status": "passed",
+      "duration_ms": 14.999999664723873,
+      "error": null,
+      "screenshot": null
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "summary": {
+    "total": 40,
+    "passed": 36,
+    "failed": 1,
+    "skipped": 3,
+    "duration": "34.83s",
+    "recording_file": "recordings\\amazon.jsonl"
+  },
+  "results": [
+    {
+      "index": 0,
+      "action": "goto",
+      "status": "passed",
+      "duration_ms": 3702.9999997466803,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 1,
+      "action": "click",
+      "status": "passed",
+      "duration_ms": 1094.0000000409782,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 2,
+      "action": "click",
+      "status": "passed",
+      "duration_ms": 1500.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 3,
+      "action": "fill",
+      "status": "passed",
+      "duration_ms": 15.00000013038516,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 4,
+      "action": "click",
+      "status": "passed",
+      "duration_ms": 63.00000008195639,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 5,
+      "action": "click",
+      "status": "passed",
+      "duration_ms": 2155.999999959022,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "fill",
+      "status": "passed",
+      "duration_ms": 30.999999959021807,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 7,
+      "action": "click",
+      "status": "passed",
+      "duration_ms": 30.999999959021807,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 8,
+      "action": "click",
+      "status": "passed",
+      "duration_ms": 63.00000008195639,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 9,
+      "action": "click",
+      "status": "passed",
+      "duration_ms": 46.99999978765845,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 10,
+      "action": "click",
+      "status": "passed",
+      "duration_ms": 280.9999999590218,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 11,
+      "action": "press",
+      "status": "passed",
+      "duration_ms": 30.999999959021807,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 12,
+      "action": "press",
+      "status": "passed",
+      "duration_ms": 16.000000294297934,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 13,
+      "action": "press",
+      "status": "passed",
+      "duration_ms": 15.999999828636646,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 14,
+      "action": "press",
+      "status": "passed",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 15,
+      "action": "press",
+      "status": "passed",
+      "duration_ms": 30.999999959021807,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 16,
+      "action": "press",
+      "status": "passed",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 17,
+      "action": "press",
+      "status": "passed",
+      "duration_ms": 15.00000013038516,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 18,
+      "action": "press",
+      "status": "passed",
+      "duration_ms": 15.999999828636646,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 19,
+      "action": "press",
+      "status": "passed",
+      "duration_ms": 16.000000294297934,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 20,
+      "action": "press",
+      "status": "passed",
+      "duration_ms": 30.999999959021807,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 21,
+      "action": "press",
+      "status": "passed",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 22,
+      "action": "press",
+      "status": "passed",
+      "duration_ms": 15.999999828636646,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 23,
+      "action": "press",
+      "status": "passed",
+      "duration_ms": 15.00000013038516,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 24,
+      "action": "press",
+      "status": "passed",
+      "duration_ms": 15.999999828636646,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 25,
+      "action": "press",
+      "status": "passed",
+      "duration_ms": 15.00000013038516,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 26,
+      "action": "press",
+      "status": "passed",
+      "duration_ms": 15.999999828636646,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 27,
+      "action": "fill",
+      "status": "passed",
+      "duration_ms": 16.000000294297934,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 28,
+      "action": "click",
+      "status": "passed",
+      "duration_ms": 46.99999978765845,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 29,
+      "action": "click",
+      "status": "passed",
+      "duration_ms": 1092.9999998770654,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 30,
+      "action": "fill",
+      "status": "passed",
+      "duration_ms": 16.000000294297934,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 31,
+      "action": "click",
+      "status": "passed",
+      "duration_ms": 46.99999978765845,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 32,
+      "action": "click",
+      "status": "passed",
+      "duration_ms": 47.00000025331974,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 33,
+      "action": "fill",
+      "status": "passed",
+      "duration_ms": 14.999999664723873,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 34,
+      "action": "click",
+      "status": "passed",
+      "duration_ms": 500.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 35,
+      "action": "goto",
+      "status": "passed",
+      "duration_ms": 391.00000029429793,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 36,
+      "action": "click",
+      "status": "failed",
+      "duration_ms": 16952.99999974668,
+      "error": "Locator.click: Target page, context or browser has been closed\nCall log:\n  - waiting for locator(\"div:nth-child(8) > div\")\n",
+      "screenshot": null
+    },
+    {
+      "index": 37,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 37,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 37,
+      "action": "closePage",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    }
+  ]
+}

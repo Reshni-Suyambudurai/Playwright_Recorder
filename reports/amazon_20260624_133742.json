@@ -1,0 +1,68 @@
+{
+  "summary": {
+    "total": 7,
+    "passed": 7,
+    "failed": 0,
+    "skipped": 0,
+    "duration": "27.53s",
+    "recording_file": "recordings\\amazon.jsonl"
+  },
+  "results": [
+    {
+      "index": 0,
+      "action": "goto",
+      "status": "passed",
+      "duration_ms": 4890.000000130385,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 1,
+      "action": "click",
+      "status": "passed",
+      "duration_ms": 563.0000000819564,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 2,
+      "action": "fill",
+      "status": "passed",
+      "duration_ms": 46.99999978765845,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 3,
+      "action": "goto",
+      "status": "passed",
+      "duration_ms": 3047.0000002533197,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 4,
+      "action": "click",
+      "status": "passed",
+      "duration_ms": 405.9999999590218,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 5,
+      "action": "click",
+      "status": "passed",
+      "duration_ms": 358.99999970570207,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "closePage",
+      "status": "passed",
+      "duration_ms": 172.00000025331974,
+      "error": null,
+      "screenshot": null
+    }
+  ]
+}

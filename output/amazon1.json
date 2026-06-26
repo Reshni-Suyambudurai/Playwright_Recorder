@@ -1,0 +1,248 @@
+{
+  "flowName": "amazon1",
+  "source": {
+    "type": "playwright_jsonl"
+  },
+  "steps": [
+    {
+      "step": 1,
+      "action": "goto",
+      "by": "url",
+      "selector": "https://www.amazon.in/",
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.goto('https://www.amazon.in/');"
+      }
+    },
+    {
+      "step": 2,
+      "action": "click",
+      "by": "role",
+      "selector": {
+        "role": "searchbox",
+        "name": "Search Amazon.in"
+      },
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('searchbox', { name: 'Search Amazon.in' }).click();"
+      }
+    },
+    {
+      "step": 3,
+      "action": "fill",
+      "by": "role",
+      "selector": {
+        "role": "searchbox",
+        "name": "Search Amazon.in"
+      },
+      "value": "{{runParameters.search_amazon_in}}",
+      "rawValue": "iphone 17 pro",
+      "paramKey": "runParameters.search_amazon_in",
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('searchbox', { name: 'Search Amazon.in' }).fill('iphone 17 pro');"
+      }
+    },
+    {
+      "step": 4,
+      "action": "press",
+      "by": "role",
+      "selector": {
+        "role": "searchbox",
+        "name": "Search Amazon.in"
+      },
+      "value": "Enter",
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('searchbox', { name: 'Search Amazon.in' }).press('Enter');"
+      }
+    },
+    {
+      "step": 5,
+      "action": "click",
+      "by": "css",
+      "selector": "#a-autoid-1-announce",
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.locator('#a-autoid-1-announce').click();"
+      }
+    },
+    {
+      "step": 6,
+      "action": "click",
+      "by": "role",
+      "selector": {
+        "role": "button",
+        "name": "Increase quantity by one"
+      },
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('button', { name: 'Increase quantity by one' }).click();"
+      }
+    },
+    {
+      "step": 7,
+      "action": "click",
+      "by": "role",
+      "selector": {
+        "role": "link",
+        "name": "Go to Cart"
+      },
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('link', { name: 'Go to Cart' }).click();"
+      }
+    },
+    {
+      "step": 8,
+      "action": "click",
+      "by": "role",
+      "selector": {
+        "role": "button",
+        "name": "Proceed to Buy Buy Amazon"
+      },
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('button', { name: 'Proceed to Buy Buy Amazon' }).click();"
+      }
+    },
+    {
+      "step": 9,
+      "action": "click",
+      "by": "role",
+      "selector": {
+        "role": "textbox",
+        "name": "Enter mobile number or email"
+      },
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('textbox', { name: 'Enter mobile number or email' }).click();"
+      }
+    },
+    {
+      "step": 10,
+      "action": "fill",
+      "by": "role",
+      "selector": {
+        "role": "textbox",
+        "name": "Enter mobile number or email"
+      },
+      "value": "{{runParameters.enter_mobile_number_or_email}}",
+      "rawValue": "kirthikakumar123@gmail.com",
+      "paramKey": "runParameters.enter_mobile_number_or_email",
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('textbox', { name: 'Enter mobile number or email' }).fill('kirthikakumar123@gmail.com');"
+      }
+    },
+    {
+      "step": 11,
+      "action": "click",
+      "by": "role",
+      "selector": {
+        "role": "button",
+        "name": "Continue"
+      },
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('button', { name: 'Continue' }).click();"
+      }
+    },
+    {
+      "step": 12,
+      "action": "fill",
+      "by": "role",
+      "selector": {
+        "role": "textbox",
+        "name": "Password"
+      },
+      "value": "{{credentials.password}}",
+      "rawValue": "Kiki@151992001",
+      "paramKey": "credentials.password",
+      "isSensitive": true,
+      "meta": {
+        "raw": "await page.getByRole('textbox', { name: 'Password' }).fill('Kiki@151992001');"
+      }
+    },
+    {
+      "step": 13,
+      "action": "click",
+      "by": "role",
+      "selector": {
+        "role": "button",
+        "name": "Sign in"
+      },
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('button', { name: 'Sign in' }).click();"
+      }
+    },
+    {
+      "step": 14,
+      "action": "closePage",
+      "by": "page",
+      "selector": null,
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.close();"
+      }
+    }
+  ],
+  "schema": {
+    "credentials": {
+      "password": {
+        "type": "string",
+        "required": true,
+        "default": null,
+        "label": "Password",
+        "secret": true
+      }
+    },
+    "runParameters": {
+      "search_amazon_in": {
+        "type": "string",
+        "required": true,
+        "default": null,
+        "label": "Search Amazon In"
+      },
+      "enter_mobile_number_or_email": {
+        "type": "string",
+        "required": true,
+        "default": null,
+        "label": "Enter Mobile Number Or Email"
+      }
+    }
+  }
+}
