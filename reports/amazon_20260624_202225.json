@@ -1,0 +1,52 @@
+{
+  "summary": {
+    "total": 5,
+    "passed": 3,
+    "failed": 1,
+    "skipped": 1,
+    "duration": "50.20s",
+    "recording_file": "recordings\\amazon.jsonl"
+  },
+  "results": [
+    {
+      "index": 0,
+      "action": "goto",
+      "status": "passed",
+      "duration_ms": 5844.000000040978,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 1,
+      "action": "click",
+      "status": "passed",
+      "duration_ms": 813.0000000819564,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 2,
+      "action": "fill",
+      "status": "passed",
+      "duration_ms": 140.00000013038516,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 3,
+      "action": "fill",
+      "status": "failed",
+      "duration_ms": 30421.99999978766,
+      "error": "Locator.fill: Timeout 30000ms exceeded.\nCall log:\n  - waiting for get_by_role(\"slider\", name=\"Maximum price\")\n",
+      "screenshot": null
+    },
+    {
+      "index": 4,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    }
+  ]
+}

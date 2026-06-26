@@ -1,0 +1,236 @@
+{
+  "summary": {
+    "total": 28,
+    "passed": 7,
+    "failed": 1,
+    "skipped": 20,
+    "duration": "27.45s",
+    "recording_file": "recordings\\zohopeople.jsonl"
+  },
+  "results": [
+    {
+      "index": 0,
+      "action": "goto",
+      "status": "passed",
+      "duration_ms": 6452.99999974668,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 1,
+      "action": "click",
+      "status": "passed",
+      "duration_ms": 297.00000025331974,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 2,
+      "action": "click",
+      "status": "passed",
+      "duration_ms": 1561.9999999180436,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 3,
+      "action": "fill",
+      "status": "passed",
+      "duration_ms": 30.999999959021807,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 4,
+      "action": "press",
+      "status": "passed",
+      "duration_ms": 32.00000012293458,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 5,
+      "action": "press",
+      "status": "passed",
+      "duration_ms": 14.999999664723873,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "click",
+      "status": "passed",
+      "duration_ms": 5313.000000081956,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 7,
+      "action": "click",
+      "status": "failed",
+      "duration_ms": 4453.000000212342,
+      "error": "Locator.click: Target page, context or browser has been closed\nCall log:\n  - waiting for get_by_role(\"textbox\", name=\"Enter your email, phone, or\", exact=True)\n",
+      "screenshot": null
+    },
+    {
+      "index": 8,
+      "action": "fill",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 8,
+      "action": "press",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 8,
+      "action": "fill",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 8,
+      "action": "press",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 8,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 8,
+      "action": "fill",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 8,
+      "action": "press",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 8,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 8,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 8,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 8,
+      "action": "fill",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 8,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 8,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 8,
+      "action": "fill",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 8,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 8,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 8,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 8,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 8,
+      "action": "fill",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 8,
+      "action": "click",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    }
+  ]
+}

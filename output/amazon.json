@@ -1,0 +1,312 @@
+{
+  "flowName": "amazon",
+  "source": {
+    "type": "playwright_jsonl"
+  },
+  "steps": [
+    {
+      "step": 1,
+      "action": "goto",
+      "by": "url",
+      "selector": "https://www.zoho.com/people/?zsrc=fromproduct",
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.goto('https://www.zoho.com/people/?zsrc=fromproduct');"
+      }
+    },
+    {
+      "step": 2,
+      "action": "click",
+      "by": "role",
+      "selector": {
+        "role": "link",
+        "name": "Sign In"
+      },
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('link', { name: 'Sign In' }).click();"
+      }
+    },
+    {
+      "step": 3,
+      "action": "click",
+      "by": "role",
+      "selector": {
+        "role": "textbox",
+        "name": "Email address or mobile number"
+      },
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('textbox', { name: 'Email address or mobile number' }).click();"
+      }
+    },
+    {
+      "step": 4,
+      "action": "fill",
+      "by": "role",
+      "selector": {
+        "role": "textbox",
+        "name": "Email address or mobile number"
+      },
+      "value": "{{runParameters.email_address_or_mobile_number}}",
+      "rawValue": "http://localhost:4200/",
+      "paramKey": "runParameters.email_address_or_mobile_number",
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('textbox', { name: 'Email address or mobile number' }).fill('http://localhost:4200/');"
+      }
+    },
+    {
+      "step": 5,
+      "action": "press",
+      "by": "role",
+      "selector": {
+        "role": "textbox",
+        "name": "Email address or mobile number"
+      },
+      "value": "a",
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('textbox', { name: 'Email address or mobile number' }).press('a');"
+      }
+    },
+    {
+      "step": 6,
+      "action": "fill",
+      "by": "role",
+      "selector": {
+        "role": "textbox",
+        "name": "Email address or mobile number"
+      },
+      "value": "{{runParameters.email_address_or_mobile_number}}",
+      "rawValue": "kirthika.kumar@kanini.com",
+      "paramKey": "runParameters.email_address_or_mobile_number",
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('textbox', { name: 'Email address or mobile number' }).fill('kirthika.kumar@kanini.com');"
+      }
+    },
+    {
+      "step": 7,
+      "action": "click",
+      "by": "role",
+      "selector": {
+        "role": "button",
+        "name": "Next"
+      },
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('button', { name: 'Next' }).click();"
+      }
+    },
+    {
+      "step": 8,
+      "action": "click",
+      "by": "role",
+      "selector": {
+        "role": "textbox",
+        "name": "Enter your email, phone, or"
+      },
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('textbox', { name: 'Enter your email, phone, or' }).click();"
+      }
+    },
+    {
+      "step": 9,
+      "action": "click",
+      "by": "role",
+      "selector": {
+        "role": "textbox",
+        "name": "Enter your email, phone, or"
+      },
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('textbox', { name: 'Enter your email, phone, or' }).click();"
+      }
+    },
+    {
+      "step": 10,
+      "action": "fill",
+      "by": "role",
+      "selector": {
+        "role": "textbox",
+        "name": "Enter your email, phone, or"
+      },
+      "value": "{{runParameters.enter_your_email_phone_or}}",
+      "rawValue": "kirthika.kumar@kanini.com",
+      "paramKey": "runParameters.enter_your_email_phone_or",
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('textbox', { name: 'Enter your email, phone, or' }).fill('kirthika.kumar@kanini.com');"
+      }
+    },
+    {
+      "step": 11,
+      "action": "click",
+      "by": "role",
+      "selector": {
+        "role": "button",
+        "name": "Next"
+      },
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('button', { name: 'Next' }).click();"
+      }
+    },
+    {
+      "step": 12,
+      "action": "click",
+      "by": "role",
+      "selector": {
+        "role": "textbox",
+        "name": "Enter the password for"
+      },
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('textbox', { name: 'Enter the password for' }).click();"
+      }
+    },
+    {
+      "step": 13,
+      "action": "fill",
+      "by": "role",
+      "selector": {
+        "role": "textbox",
+        "name": "Enter the password for"
+      },
+      "value": "{{credentials.enter_the_password_for}}",
+      "rawValue": "Kiki@15192001",
+      "paramKey": "credentials.enter_the_password_for",
+      "isSensitive": true,
+      "meta": {
+        "raw": "await page.getByRole('textbox', { name: 'Enter the password for' }).fill('Kiki@15192001');"
+      }
+    },
+    {
+      "step": 14,
+      "action": "click",
+      "by": "role",
+      "selector": {
+        "role": "button",
+        "name": "Sign in"
+      },
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('button', { name: 'Sign in' }).click();"
+      }
+    },
+    {
+      "step": 15,
+      "action": "goto",
+      "by": "url",
+      "selector": "https://login.microsoftonline.com/common/SAS/ProcessAuth",
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.goto('https://login.microsoftonline.com/common/SAS/ProcessAuth');"
+      }
+    },
+    {
+      "step": 16,
+      "action": "check",
+      "by": "role",
+      "selector": {
+        "role": "checkbox",
+        "name": "Don't show this again"
+      },
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('checkbox', { name: 'Don't show this again' }).check();"
+      }
+    },
+    {
+      "step": 17,
+      "action": "click",
+      "by": "role",
+      "selector": {
+        "role": "button",
+        "name": "Yes"
+      },
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('button', { name: 'Yes' }).click();"
+      }
+    },
+    {
+      "step": 18,
+      "action": "closePage",
+      "by": "page",
+      "selector": null,
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.close();"
+      }
+    }
+  ],
+  "schema": {
+    "credentials": {
+      "enter_the_password_for": {
+        "type": "string",
+        "required": true,
+        "default": null,
+        "label": "Enter The Password For",
+        "secret": true
+      }
+    },
+    "runParameters": {
+      "email_address_or_mobile_number": {
+        "type": "string",
+        "required": true,
+        "default": null,
+        "label": "Email Address Or Mobile Number"
+      },
+      "enter_your_email_phone_or": {
+        "type": "string",
+        "required": true,
+        "default": null,
+        "label": "Enter Your Email Phone Or"
+      }
+    }
+  }
+}

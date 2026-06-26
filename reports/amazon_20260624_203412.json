@@ -1,0 +1,76 @@
+{
+  "summary": {
+    "total": 8,
+    "passed": 6,
+    "failed": 1,
+    "skipped": 1,
+    "duration": "46.52s",
+    "recording_file": "recordings\\amazon.jsonl"
+  },
+  "results": [
+    {
+      "index": 0,
+      "action": "goto",
+      "status": "passed",
+      "duration_ms": 2640.000000130385,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 1,
+      "action": "click",
+      "status": "passed",
+      "duration_ms": 453.99999991059303,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 2,
+      "action": "fill",
+      "status": "passed",
+      "duration_ms": 78.00000021234155,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 3,
+      "action": "goto",
+      "status": "passed",
+      "duration_ms": 1936.9999999180436,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 4,
+      "action": "fill",
+      "status": "passed",
+      "duration_ms": 77.99999974668026,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 5,
+      "action": "click",
+      "status": "passed",
+      "duration_ms": 2016.000000294298,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 6,
+      "action": "click",
+      "status": "failed",
+      "duration_ms": 30296.99999978766,
+      "error": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for get_by_role(\"button\", name=\"Increase quantity by one\", exact=True)\n",
+      "screenshot": "screenshots\\failure_6_click.png"
+    },
+    {
+      "index": 7,
+      "action": "closePage",
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null,
+      "screenshot": null
+    }
+  ]
+}

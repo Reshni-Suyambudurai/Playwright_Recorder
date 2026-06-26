@@ -1,0 +1,257 @@
+[
+  {
+    "action": "goto",
+    "url": "https://www.zoho.com/people/login.html"
+  },
+  {
+    "action": "click",
+    "locator": {
+      "type": "role",
+      "role": "link",
+      "name": "Sign In",
+      "exact": true
+    }
+  },
+  {
+    "action": "click",
+    "locator": {
+      "type": "role",
+      "role": "textbox",
+      "name": "Email address or mobile number",
+      "exact": true
+    }
+  },
+  {
+    "action": "fill",
+    "locator": {
+      "type": "role",
+      "role": "textbox",
+      "name": "Email address or mobile number",
+      "exact": true
+    },
+    "value": "Reshni.Suyambudurai@kanini.com"
+  },
+  {
+    "action": "press",
+    "locator": {
+      "type": "role",
+      "role": "textbox",
+      "name": "Email address or mobile number",
+      "exact": true
+    },
+    "key": "Enter"
+  },
+  {
+    "action": "press",
+    "locator": {
+      "type": "role",
+      "role": "textbox",
+      "name": "Email address or mobile number",
+      "exact": true
+    },
+    "key": "Enter"
+  },
+  {
+    "action": "click",
+    "locator": {
+      "type": "role",
+      "role": "button",
+      "name": "Next",
+      "exact": true
+    }
+  },
+  {
+    "action": "click",
+    "locator": {
+      "type": "role",
+      "role": "textbox",
+      "name": "Enter your email, phone, or",
+      "exact": true
+    }
+  },
+  {
+    "action": "fill",
+    "locator": {
+      "type": "role",
+      "role": "textbox",
+      "name": "Enter your email, phone, or",
+      "exact": true
+    },
+    "value": "Res1233"
+  },
+  {
+    "action": "press",
+    "locator": {
+      "type": "role",
+      "role": "textbox",
+      "name": "Enter your email, phone, or",
+      "exact": true
+    },
+    "key": "a"
+  },
+  {
+    "action": "fill",
+    "locator": {
+      "type": "role",
+      "role": "textbox",
+      "name": "Enter your email, phone, or",
+      "exact": true
+    },
+    "value": "Reshni.Suyambudurai@kanini.com"
+  },
+  {
+    "action": "press",
+    "locator": {
+      "type": "role",
+      "role": "textbox",
+      "name": "Enter your email, phone, or",
+      "exact": true
+    },
+    "key": "Enter"
+  },
+  {
+    "action": "click",
+    "locator": {
+      "type": "role",
+      "role": "button",
+      "name": "Next",
+      "exact": true
+    }
+  },
+  {
+    "action": "fill",
+    "locator": {
+      "type": "css",
+      "value": "#i0118"
+    },
+    "value": "Reshn@123"
+  },
+  {
+    "action": "press",
+    "locator": {
+      "type": "css",
+      "value": "#i0118"
+    },
+    "key": "Enter"
+  },
+  {
+    "action": "click",
+    "locator": {
+      "type": "role",
+      "role": "button",
+      "name": "Sign in",
+      "exact": true
+    }
+  },
+  {
+    "action": "click",
+    "locator": {
+      "type": "role",
+      "role": "textbox",
+      "name": "Enter the password for reshni",
+      "exact": true
+    }
+  },
+  {
+    "action": "click",
+    "locator": {
+      "type": "role",
+      "role": "textbox",
+      "name": "Enter the password for reshni",
+      "exact": true
+    }
+  },
+  {
+    "action": "fill",
+    "locator": {
+      "type": "role",
+      "role": "textbox",
+      "name": "Enter the password for reshni",
+      "exact": true
+    },
+    "value": "bkigy"
+  },
+  {
+    "action": "click",
+    "locator": {
+      "type": "role",
+      "role": "button",
+      "name": "Sign in",
+      "exact": true
+    }
+  },
+  {
+    "action": "click",
+    "locator": {
+      "type": "role",
+      "role": "textbox",
+      "name": "Enter the password for reshni",
+      "exact": true
+    }
+  },
+  {
+    "action": "fill",
+    "locator": {
+      "type": "role",
+      "role": "textbox",
+      "name": "Enter the password for reshni",
+      "exact": true
+    },
+    "value": "nextpass"
+  },
+  {
+    "action": "click",
+    "locator": {
+      "type": "role",
+      "role": "button",
+      "name": "Sign in",
+      "exact": true
+    }
+  },
+  {
+    "action": "click",
+    "locator": {
+      "type": "role",
+      "role": "button",
+      "name": "Back",
+      "exact": true
+    }
+  },
+  {
+    "action": "click",
+    "locator": {
+      "type": "role",
+      "role": "button",
+      "name": "Next",
+      "exact": true
+    }
+  },
+  {
+    "action": "click",
+    "locator": {
+      "type": "role",
+      "role": "textbox",
+      "name": "Enter the password for reshni",
+      "exact": true
+    }
+  },
+  {
+    "action": "fill",
+    "locator": {
+      "type": "role",
+      "role": "textbox",
+      "name": "Enter the password for reshni",
+      "exact": true
+    },
+    "value": "bjou"
+  },
+  {
+    "action": "click",
+    "locator": {
+      "type": "role",
+      "role": "button",
+      "name": "Sign in",
+      "exact": true
+    }
+  }
+]

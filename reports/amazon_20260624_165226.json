@@ -1,0 +1,52 @@
+{
+  "summary": {
+    "total": 5,
+    "passed": 4,
+    "failed": 1,
+    "skipped": 0,
+    "duration": "79.19s",
+    "recording_file": "amazon"
+  },
+  "results": [
+    {
+      "index": 0,
+      "action": "goto",
+      "status": "passed",
+      "duration_ms": 891.0000002942979,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 1,
+      "action": "click",
+      "status": "passed",
+      "duration_ms": 2358.999999705702,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 2,
+      "action": "fill",
+      "status": "passed",
+      "duration_ms": 407.0000001229346,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 3,
+      "action": "fill",
+      "status": "passed",
+      "duration_ms": 17109.000000171363,
+      "error": null,
+      "screenshot": null
+    },
+    {
+      "index": 4,
+      "action": "click",
+      "status": "failed",
+      "duration_ms": 50530.99999995902,
+      "error": "Locator.click: Target page, context or browser has been closed\nCall log:\n  - waiting for locator(\"#a-autoid-28-announce\")\n    - locator resolved to <button type=\"button\" aria-label=\"Close\" class=\"a-button-text\" id=\"a-autoid-28-announce\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    95 × waiting for element to be visible, enabled and stable\n       - element is not visible\n     - retrying click action\n       - waiting 500ms\n",
+      "screenshot": null
+    }
+  ]
+}
