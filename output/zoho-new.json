@@ -1,0 +1,455 @@
+{
+  "flowName": "zohonew",
+  "source": {
+    "type": "playwright_jsonl"
+  },
+  "steps": [
+    {
+      "step": 1,
+      "action": "goto",
+      "by": "url",
+      "selector": "https://accounts.zoho.in/signin?servicename=zohopeople&serviceurl=https%3A%2F%2Fmyhrms.kanini.com%2Fkanini%2Fzp#home/myspace/overview-actionlist",
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.goto('https://accounts.zoho.in/signin?servicename=zohopeople&serviceurl=https%3A%2F%2Fmyhrms.kanini.com%2Fkanini%2Fzp#home/myspace/overview-actionlist');"
+      }
+    },
+    {
+      "step": 2,
+      "action": "fill",
+      "by": "role",
+      "selector": {
+        "role": "textbox",
+        "name": "Email address or mobile number"
+      },
+      "value": "{{runParameters.email_address_or_mobile_number}}",
+      "rawValue": "reshni.suyambudurai@kanini.com",
+      "paramKey": "runParameters.email_address_or_mobile_number",
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('textbox', { name: 'Email address or mobile number' }).fill('reshni.suyambudurai@kanini.com');"
+      }
+    },
+    {
+      "step": 3,
+      "action": "click",
+      "by": "role",
+      "selector": {
+        "role": "button",
+        "name": "Next"
+      },
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('button', { name: 'Next' }).click();"
+      }
+    },
+    {
+      "step": 4,
+      "action": "fill",
+      "by": "role",
+      "selector": {
+        "role": "textbox",
+        "name": "Enter your email, phone, or"
+      },
+      "value": "{{runParameters.enter_your_email_phone_or}}",
+      "rawValue": "reshni.suyambudurai@kanini.com",
+      "paramKey": "runParameters.enter_your_email_phone_or",
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('textbox', { name: 'Enter your email, phone, or' }).fill('reshni.suyambudurai@kanini.com');"
+      }
+    },
+    {
+      "step": 5,
+      "action": "click",
+      "by": "role",
+      "selector": {
+        "role": "button",
+        "name": "Next"
+      },
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('button', { name: 'Next' }).click();"
+      }
+    },
+    {
+      "step": 6,
+      "action": "fill",
+      "by": "css",
+      "selector": "#i0118",
+      "value": "{{runParameters.i0118}}",
+      "rawValue": "Shree@123",
+      "paramKey": "runParameters.i0118",
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.locator('#i0118').fill('Shree@123');"
+      }
+    },
+    {
+      "step": 7,
+      "action": "click",
+      "by": "role",
+      "selector": {
+        "role": "button",
+        "name": "Sign in"
+      },
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('button', { name: 'Sign in' }).click();"
+      }
+    },
+    {
+      "step": 8,
+      "action": "click",
+      "by": "role",
+      "selector": {
+        "role": "button",
+        "name": "Yes"
+      },
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('button', { name: 'Yes' }).click();"
+      }
+    },
+    {
+      "step": 9,
+      "action": "goto",
+      "by": "url",
+      "selector": "https://myhrms.kanini.com/kanini/zp#home/myspace/overview-actionlist",
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.goto('https://myhrms.kanini.com/kanini/zp#home/myspace/overview-actionlist');"
+      }
+    },
+    {
+      "step": 10,
+      "action": "click",
+      "by": "role",
+      "selector": {
+        "role": "listitem",
+        "name": "Time Tracker"
+      },
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('listitem', { name: 'Time Tracker' }).click();"
+      }
+    },
+    {
+      "step": 11,
+      "action": "goto",
+      "by": "url",
+      "selector": "https://myhrms.kanini.com/kanini/zp#timetracker/mydata/timelogs-mode:list",
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.goto('https://myhrms.kanini.com/kanini/zp#timetracker/mydata/timelogs-mode:list');"
+      }
+    },
+    {
+      "step": 12,
+      "action": "click",
+      "by": "css",
+      "selector": "#my_logselectBtn",
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.locator('#my_logselectBtn').click();"
+      }
+    },
+    {
+      "step": 13,
+      "action": "click",
+      "by": "role",
+      "selector": {
+        "role": "menuitem",
+        "name": "Weekly Log"
+      },
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('menuitem', { name: 'Weekly Log' }).click();"
+      }
+    },
+    {
+      "step": 14,
+      "action": "click",
+      "by": "css",
+      "selector": "#bulk_log_addrow",
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.locator('#bulk_log_addrow').click();"
+      }
+    },
+    {
+      "step": 15,
+      "action": "click",
+      "by": "css",
+      "selector": "#weekclientselect10-container > .zselectbox__icon > .zselectbox__arrow",
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.locator('#weekclientselect10-container > .zselectbox__icon > .zselectbox__arrow').click();"
+      }
+    },
+    {
+      "step": 16,
+      "action": "click",
+      "by": "css",
+      "selector": "#zselect-88461596-listbox-11653000019440024 > .zdropdownlist__content > .zdropdownlist__text",
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.locator('#zselect-88461596-listbox-11653000019440024 > .zdropdownlist__content > .zdropdownlist__text').click();"
+      }
+    },
+    {
+      "step": 17,
+      "action": "click",
+      "by": "css",
+      "selector": "#zzselect-98842298-listbox-searchbox",
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.locator('#zzselect-98842298-listbox-searchbox').click();"
+      }
+    },
+    {
+      "step": 18,
+      "action": "click",
+      "by": "css",
+      "selector": "#tfoot_excessRow",
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.locator('#tfoot_excessRow').click();"
+      }
+    },
+    {
+      "step": 19,
+      "action": "click",
+      "by": "css",
+      "selector": "#weekjobselect10-container > .zselectbox__icon > .zselectbox__arrow",
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.locator('#weekjobselect10-container > .zselectbox__icon > .zselectbox__arrow').click();"
+      }
+    },
+    {
+      "step": 20,
+      "action": "click",
+      "by": "css",
+      "selector": "#zselect-83401887-listbox-11653000035404978 > .zdropdownlist__content > .zdropdownlist__text",
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.locator('#zselect-83401887-listbox-11653000035404978 > .zdropdownlist__content > .zdropdownlist__text').click();"
+      }
+    },
+    {
+      "step": 21,
+      "action": "click",
+      "by": "css",
+      "selector": "#weekworkitem10",
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.locator('#weekworkitem10').click();"
+      }
+    },
+    {
+      "step": 22,
+      "action": "fill",
+      "by": "css",
+      "selector": "#weekworkitem10",
+      "value": "{{runParameters.weekworkitem10}}",
+      "rawValue": "Testing zoho",
+      "paramKey": "runParameters.weekworkitem10",
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.locator('#weekworkitem10').fill('Testing zoho');"
+      }
+    },
+    {
+      "step": 23,
+      "action": "click",
+      "by": "role",
+      "selector": {
+        "role": "button",
+        "name": "Save"
+      },
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('button', { name: 'Save' }).click();"
+      }
+    },
+    {
+      "step": 24,
+      "action": "click",
+      "by": "css",
+      "selector": "#weekrow10 > td:nth-child(8) > .zpl_flexaligngap3 > #daytxt2",
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.locator('#weekrow10 > td:nth-child(8) > .zpl_flexaligngap3 > #daytxt2').click();"
+      }
+    },
+    {
+      "step": 25,
+      "action": "fill",
+      "by": "css",
+      "selector": "#weekrow10 > td:nth-child(8) > .zpl_flexaligngap3 > #daytxt2",
+      "value": "{{runParameters.weekrow10_td_nth_child_8_zpl_flexaligngap3_daytxt2}}",
+      "rawValue": "1",
+      "paramKey": "runParameters.weekrow10_td_nth_child_8_zpl_flexaligngap3_daytxt2",
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.locator('#weekrow10 > td:nth-child(8) > .zpl_flexaligngap3 > #daytxt2').fill('1');"
+      }
+    },
+    {
+      "step": 26,
+      "action": "click",
+      "by": "role",
+      "selector": {
+        "role": "button",
+        "name": "Save"
+      },
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('button', { name: 'Save' }).click();"
+      }
+    },
+    {
+      "step": 27,
+      "action": "click",
+      "by": "role",
+      "selector": {
+        "role": "listitem",
+        "name": "Leave Tracker"
+      },
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('listitem', { name: 'Leave Tracker' }).click();"
+      }
+    },
+    {
+      "step": 28,
+      "action": "goto",
+      "by": "url",
+      "selector": "https://myhrms.kanini.com/kanini/zp#leavetracker/mydata/summary-mode:list",
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.goto('https://myhrms.kanini.com/kanini/zp#leavetracker/mydata/summary-mode:list');"
+      }
+    },
+    {
+      "step": 29,
+      "action": "click",
+      "by": "role",
+      "selector": {
+        "role": "listitem"
+      },
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('listitem', { name: '' }).click();"
+      }
+    }
+  ],
+  "schema": {
+    "credentials": {},
+    "runParameters": {
+      "email_address_or_mobile_number": {
+        "type": "string",
+        "required": true,
+        "default": null,
+        "label": "Email Address Or Mobile Number"
+      },
+      "enter_your_email_phone_or": {
+        "type": "string",
+        "required": true,
+        "default": null,
+        "label": "Enter Your Email Phone Or"
+      },
+      "i0118": {
+        "type": "string",
+        "required": true,
+        "default": null,
+        "label": "I0118"
+      },
+      "weekworkitem10": {
+        "type": "string",
+        "required": true,
+        "default": null,
+        "label": "Weekworkitem10"
+      },
+      "weekrow10_td_nth_child_8_zpl_flexaligngap3_daytxt2": {
+        "type": "string",
+        "required": true,
+        "default": null,
+        "label": "Weekrow10 Td Nth Child 8 Zpl Flexaligngap3 Daytxt2"
+      }
+    }
+  }
+}

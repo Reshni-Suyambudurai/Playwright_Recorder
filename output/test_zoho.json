@@ -1,0 +1,394 @@
+{
+  "flowName": "zohonew",
+  "source": {
+    "type": "playwright_jsonl"
+  },
+  "steps": [
+    {
+      "step": 1,
+      "action": "goto",
+      "by": "url",
+      "selector": "https://accounts.zoho.in/signin?servicename=zohopeople&serviceurl=https%3A%2F%2Fmyhrms.kanini.com%2Fkanini%2Fzp%22",
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false
+        
+    },
+    {
+      "step": 2,
+      "action": "fill",
+      "by": "role",
+      "selector": {
+        "role": "textbox",
+        "name": "Email address or mobile number"
+      },
+      "value": "{{runParameters.email_address_or_mobile_number}}",
+      "rawValue": "janani.marimuthu@kanini.com",
+      "paramKey": "runParameters.email_address_or_mobile_number",
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('textbox', { name: 'Email address or mobile number' }).fill('janani.marimuthu@kanini.com');"
+      }
+    },
+    {
+      "step": 3,
+      "action": "click",
+      "by": "role",
+      "selector": {
+        "role": "button",
+        "name": "Next"
+      },
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('button', { name: 'Next' }).click();"
+      }
+    },
+    {
+      "step": 4,
+      "action": "fill",
+      "by": "role",
+      "selector": {
+        "role": "textbox",
+        "name": "Enter your email, phone, or"
+      },
+      "value": "{{runParameters.enter_your_email_phone_or}}",
+      "rawValue": "janani.marimuthu@kanini.com",
+      "paramKey": "runParameters.enter_your_email_phone_or",
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('textbox', { name: 'Enter your email, phone, or' }).fill('janani.marimuthu@kanini.com');"
+      }
+    },
+    {
+      "step": 5,
+      "action": "click",
+      "by": "role",
+      "selector": {
+        "role": "button",
+        "name": "Next"
+      },
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('button', { name: 'Next' }).click();"
+      }
+    },
+    {
+      "step": 6,
+      "action": "press",
+      "by": "css",
+      "selector": "#i0118",
+      "value": "CapsLock",
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.locator('#i0118').press('CapsLock');"
+      }
+    },
+    {
+      "step": 7,
+      "action": "fill",
+      "by": "role",
+      "selector": {
+        "role": "textbox",
+        "name": "Enter the password for janani"
+      },
+      "value": "{{credentials.enter_the_password_for_janani}}",
+      "rawValue": "D",
+      "paramKey": "credentials.enter_the_password_for_janani",
+      "isSensitive": true,
+      "meta": {
+        "raw": "await page.getByRole('textbox', { name: 'Enter the password for janani' }).fill('D');"
+      }
+    },
+    {
+      "step": 8,
+      "action": "press",
+      "by": "role",
+      "selector": {
+        "role": "textbox",
+        "name": "Enter the password for janani"
+      },
+      "value": "CapsLock",
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('textbox', { name: 'Enter the password for janani' }).press('CapsLock');"
+      }
+    },
+    {
+      "step": 9,
+      "action": "fill",
+      "by": "role",
+      "selector": {
+        "role": "textbox",
+        "name": "Enter the password for janani"
+      },
+      "value": "{{credentials.enter_the_password_for_janani}}",
+      "rawValue": "Deepikaem@1808",
+      "paramKey": "credentials.enter_the_password_for_janani",
+      "isSensitive": true,
+      "meta": {
+        "raw": "await page.getByRole('textbox', { name: 'Enter the password for janani' }).fill('Deepikaem@1808');"
+      }
+    },
+    {
+      "step": 10,
+      "action": "click",
+      "by": "role",
+      "selector": {
+        "role": "button",
+        "name": "Sign in"
+      },
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('button', { name: 'Sign in' }).click();"
+      }
+    },
+    {
+      "step": 11,
+      "action": "click",
+      "by": "role",
+      "selector": {
+        "role": "button",
+        "name": "No"
+      },
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('button', { name: 'No' }).click();"
+      }
+    },
+    {
+      "step": 12,
+      "action": "click",
+      "by": "css",
+      "selector": "#zp_maintabs div",
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.locator('#zp_maintabs div').click();"
+      }
+    },
+    {
+      "step": 13,
+      "action": "click",
+      "by": "css",
+      "selector": "#my_logselectBtn",
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.locator('#my_logselectBtn').click();"
+      }
+    },
+    {
+      "step": 14,
+      "action": "click",
+      "by": "role",
+      "selector": {
+        "role": "menuitem",
+        "name": "Weekly Log"
+      },
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('menuitem', { name: 'Weekly Log' }).click();"
+      }
+    },
+    {
+      "step": 15,
+      "action": "click",
+      "by": "css",
+      "selector": "#bulk_log_addrow",
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.locator('#bulk_log_addrow').click();"
+      }
+    },
+    {
+      "step": 16,
+      "action": "click",
+      "by": "text",
+      "selector": "Select",
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByText('Select').click();"
+      }
+    },
+    {
+      "step": 17,
+      "action": "click",
+      "by": "role",
+      "selector": {
+        "role": "option",
+        "name": "KANINI - Internal"
+      },
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('option', { name: 'KANINI - Internal' }).click();"
+      }
+    },
+    {
+      "step": 18,
+      "action": "click",
+      "by": "role",
+      "selector": {
+        "role": "option",
+        "name": "KANINI - Internal"
+      },
+      "value": null,
+      "rawValue": null,
+      "paramKey": null,
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('option', { name: 'KANINI - Internal' }).click();"
+      }
+    },
+    {
+      "step": 19,
+      "action": "fill",
+      "by": "css",
+      "selector": "#weekworkitem8",
+      "value": "{{runParameters.weekworkitem8}}",
+      "rawValue": "pro",
+      "paramKey": "runParameters.weekworkitem8",
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.locator('#weekworkitem8').fill('pro');"
+      }
+    },
+    {
+      "step": 20,
+      "action": "fill",
+      "by": "css",
+      "selector": {
+        "scope": "last-row",
+        "subSelector": "#daytxt2",
+        "note": "Scoped to last table row; sub-selector is stable day-of-week id."
+      },
+      "value": "{{runParameters.field}}",
+      "rawValue": "1",
+      "paramKey": "runParameters.field",
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('row').last().locator('#daytxt2').fill('1');"
+      }
+    },
+    {
+      "step": 21,
+      "action": "fill",
+      "by": "css",
+      "selector": {
+        "scope": "last-row",
+        "subSelector": "#daytxt3",
+        "note": "Scoped to last table row; sub-selector is stable day-of-week id."
+      },
+      "value": "{{runParameters.field}}",
+      "rawValue": "1",
+      "paramKey": "runParameters.field",
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('row').last().locator('#daytxt3').fill('1');"
+      }
+    },
+    {
+      "step": 22,
+      "action": "fill",
+      "by": "css",
+      "selector": {
+        "scope": "last-row",
+        "subSelector": "#daytxt4",
+        "note": "Scoped to last table row; sub-selector is stable day-of-week id."
+      },
+      "value": "{{runParameters.field}}",
+      "rawValue": "1",
+      "paramKey": "runParameters.field",
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('row').last().locator('#daytxt4').fill('1');"
+      }
+    },
+    {
+      "step": 23,
+      "action": "fill",
+      "by": "css",
+      "selector": {
+        "scope": "last-row",
+        "subSelector": "#daytxt5",
+        "note": "Scoped to last table row; sub-selector is stable day-of-week id."
+      },
+      "value": "{{runParameters.field}}",
+      "rawValue": "1",
+      "paramKey": "runParameters.field",
+      "isSensitive": false,
+      "meta": {
+        "raw": "await page.getByRole('row').last().locator('#daytxt5').fill('1');"
+      }
+    }
+  ],
+  "schema": {
+    "credentials": {
+      "enter_the_password_for_janani": {
+        "type": "string",
+        "required": true,
+        "default": null,
+        "label": "Enter The Password For Janani",
+        "secret": true
+      }
+    },
+    "runParameters": {
+      "email_address_or_mobile_number": {
+        "type": "string",
+        "required": true,
+        "default": null,
+        "label": "Email Address Or Mobile Number"
+      },
+      "enter_your_email_phone_or": {
+        "type": "string",
+        "required": true,
+        "default": null,
+        "label": "Enter Your Email Phone Or"
+      },
+      "weekworkitem8": {
+        "type": "string",
+        "required": true,
+        "default": null,
+        "label": "Weekworkitem8"
+      },
+      "field": {
+        "type": "string",
+        "required": true,
+        "default": null,
+        "label": "Field"
+      }
+    }
+  }
+}
